@@ -629,53 +629,53 @@ class AppLocalizationsRu extends AppLocalizations {
   String get tagFavoriteName => 'Закладки';
 
   @override
-  String get tagEnergyName => 'Energy';
+  String get tagEnergyName => 'Năng lượng';
 
   @override
-  String get tagCategoryActivitiesName => 'Activities';
+  String get tagCategoryActivitiesName => 'Hoạt động';
 
   @override
-  String get tagExerciseName => 'Exercise';
+  String get tagExerciseName => 'Tập thể dục';
 
   @override
-  String get tagSocializingName => 'Socializing';
+  String get tagSocializingName => 'Giao lưu';
 
   @override
-  String get tagHobbyName => 'Hobby';
+  String get tagHobbyName => 'Sở thích';
 
   @override
-  String get tagEntertainmentName => 'Entertainment';
+  String get tagEntertainmentName => 'Giải trí';
 
   @override
-  String get tagDiningName => 'Dining';
+  String get tagDiningName => 'Ăn uống';
 
   @override
-  String get tagChoresName => 'Chores';
+  String get tagChoresName => 'Việc vặt';
 
   @override
-  String get tagCategoryEmotionsName => 'Emotions';
+  String get tagCategoryEmotionsName => 'Cảm xúc';
 
   @override
-  String get tagExcitedName => 'Excited';
+  String get tagExcitedName => 'Hào hứng';
 
   @override
-  String get tagGratefulName => 'Grateful';
+  String get tagGratefulName => 'Biết ơn';
 
   @override
-  String get tagCalmName => 'Calm';
+  String get tagCalmName => 'Bình yên';
 
   @override
-  String get tagTiredName => 'Tired';
+  String get tagTiredName => 'Mệt mỏi';
 
   @override
-  String get tagAnxiousName => 'Anxious';
+  String get tagAnxiousName => 'Lo lắng';
 
   @override
-  String get tagAnnoyedName => 'Annoyed';
+  String get tagAnnoyedName => 'Bực bội';
 
   @override
   String get welcomeLogBodyText =>
-      '## Welcome to Daily You\n\n> Every day is worth remembering, capture it!\n\n**Daily You** is free, [open source](https://github.com/Demizo/Daily_You), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you\'re journaling, reflecting, or just noting what made you smile, **Daily You** gives you a private space that\'s _truly your own_.';
+      '## Chào mừng bạn đến với Daily You\n\n> Mỗi ngày đều đáng nhớ, hãy lưu giữ từng khoảnh khắc!\n\n**Daily You** hoàn toàn miễn phí, [mã nguồn mở](https://github.com/Demizo/Daily_You) và được hỗ trợ bởi cộng đồng. Ứng dụng được xây dựng trên niềm tin rằng nhật ký phải là của riêng bạn, không phải một sản phẩm thương mại:\n\n- Không quảng cáo\n- Không tính năng bị khóa\n- Không theo dõi hay thu thập dữ liệu\n\nDù bạn viết nhật ký, suy ngẫm hay chỉ ghi lại điều khiến mình mỉm cười, **Daily You** mang đến cho bạn một không gian riêng tư _thực sự thuộc về bạn_.';
 
   @override
   String get settingsStorageTitle => 'Хранилище';
@@ -684,7 +684,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get settingsImageQuality => 'Качество изображения';
 
   @override
-  String get settingsMediaQualityTitle => 'Media Quality';
+  String get settingsMediaQualityTitle => 'Chất lượng tệp phương tiện';
 
   @override
   String get imageQualityHigh => 'Высокое';
@@ -699,7 +699,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get imageQualityNoCompression => 'Без сжатия';
 
   @override
-  String get settingsStorageUsage => 'Storage Usage';
+  String get settingsStorageUsage => 'Dung lượng đã dùng';
 
   @override
   String get settingsLogFolder => 'Папка для записей';
@@ -708,10 +708,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get settingsImageFolder => 'Папка для картинок';
 
   @override
-  String get settingsExternalSyncTitle => 'Sync with External Location';
+  String get settingsExternalSyncTitle => 'Đồng bộ với vị trí ngoài';
 
   @override
-  String get chooseFolderHint => 'Choose a folder';
+  String get chooseFolderHint => 'Chọn một thư mục';
 
   @override
   String get warningTitle => 'Внимание';
@@ -732,8 +732,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Не удалось поменять папку для картинок!';
 
   @override
-  String get syncErrorDescription =>
-      'Failed to sync with the external location!';
+  String get syncErrorDescription => 'Đồng bộ với vị trí ngoài thất bại!';
 
   @override
   String get backupErrorDescription => 'Не удалось создать резервную копию!';
@@ -756,56 +755,57 @@ class AppLocalizationsRu extends AppLocalizations {
       'Откат к резервной копии перезапишет существующие данные!';
 
   @override
-  String get settingsBackupPasswordProtect => 'Password Protect Backups';
+  String get settingsBackupPasswordProtect => 'Bảo vệ sao lưu bằng mật khẩu';
 
   @override
-  String get backupEncryptedTitle => 'Encrypted Backup';
+  String get backupEncryptedTitle => 'Bản sao lưu đã mã hóa';
 
   @override
-  String get backupEncryptedContent => 'This backup is password protected.';
+  String get backupEncryptedContent =>
+      'Bản sao lưu này được bảo vệ bằng mật khẩu.';
 
   @override
-  String get settingsAutoBackup => 'Automatic Backups';
+  String get settingsAutoBackup => 'Tự động sao lưu';
 
   @override
-  String get settingsAutoBackupLocation => 'Backup Location';
+  String get settingsAutoBackupLocation => 'Vị trí sao lưu';
 
   @override
-  String get settingsAutoBackupInterval => 'Backup Interval';
+  String get settingsAutoBackupInterval => 'Tần suất sao lưu';
 
   @override
-  String get settingsAutoBackupIntervalDaily => 'Daily';
+  String get settingsAutoBackupIntervalDaily => 'Hàng ngày';
 
   @override
-  String get settingsAutoBackupIntervalWeekly => 'Weekly';
+  String get settingsAutoBackupIntervalWeekly => 'Hàng tuần';
 
   @override
-  String get settingsAutoBackupIntervalMonthly => 'Monthly';
+  String get settingsAutoBackupIntervalMonthly => 'Hàng tháng';
 
   @override
-  String get settingsAutoBackupMaxCount => 'Backups To Keep';
+  String get settingsAutoBackupMaxCount => 'Số bản sao lưu giữ lại';
 
   @override
-  String get settingsAutoBackupRequireCharging => 'Only While Charging';
+  String get settingsAutoBackupRequireCharging => 'Chỉ khi đang sạc';
 
   @override
   String settingsBackupLast(Object time) {
-    return 'Last backup $time';
+    return 'Sao lưu gần nhất: $time';
   }
 
   @override
-  String get settingsBackupNever => 'Never backed up';
+  String get settingsBackupNever => 'Chưa từng sao lưu';
 
   @override
   String settingsAutoBackupNext(Object time) {
-    return 'Next backup $time';
+    return 'Sao lưu tiếp theo: $time';
   }
 
   @override
-  String get settingsAutoBackupKeepAll => 'All';
+  String get settingsAutoBackupKeepAll => 'Tất cả';
 
   @override
-  String get autoBackupFailedTitle => 'Backup Failed';
+  String get autoBackupFailedTitle => 'Sao lưu tự động thất bại';
 
   @override
   String tranferStatus(Object percent) {
@@ -824,12 +824,12 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String encryptingBackupStatus(Object percent) {
-    return 'Encrypting Backup… $percent%';
+    return 'Đang mã hóa bản sao lưu… $percent%';
   }
 
   @override
   String decryptingBackupStatus(Object percent) {
-    return 'Decrypting Backup… $percent%';
+    return 'Đang giải mã bản sao lưu… $percent%';
   }
 
   @override
@@ -837,7 +837,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String migratingImagesStatus(Object current, Object total) {
-    return 'Migrating photos… $current/$total';
+    return 'Đang chuyển ảnh… $current/$total';
   }
 
   @override
@@ -857,7 +857,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get exportImages => 'Экспорт изображений';
 
   @override
-  String get exportIncludeTitle => 'Include';
+  String get exportIncludeTitle => 'Bao gồm';
 
   @override
   String get settingsImport => 'Импорт';
@@ -987,7 +987,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get settingsSourceCode => 'Исходный код';
 
   @override
-  String get settingsOpenSourceLicenses => 'Open Source Licenses';
+  String get settingsOpenSourceLicenses => 'Giấy phép mã nguồn mở';
 
   @override
   String get settingsMadeWithLove => 'Сделано с ❤️';
@@ -999,7 +999,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get imagesTitle => 'Изображения';
 
   @override
-  String get audioTitle => 'Audio';
+  String get audioTitle => 'Âm thanh';
 
   @override
   String get videoTitle => 'Video';
@@ -1008,50 +1008,50 @@ class AppLocalizationsRu extends AppLocalizations {
   String get tagMoodTitle => 'Настроение';
 
   @override
-  String get calendarTagDisplayLabel => 'Tag';
+  String get calendarTagDisplayLabel => 'Thẻ';
 
   @override
-  String get selectTagTitle => 'Select Tag';
+  String get selectTagTitle => 'Chọn thẻ';
 
   @override
-  String get labelPresentLabel => 'Present';
+  String get labelPresentLabel => 'Có mặt';
 
   @override
-  String get labelAbsentLabel => 'Absent';
+  String get labelAbsentLabel => 'Vắng mặt';
 
   @override
-  String get labelCoverageLabel => 'Coverage';
+  String get labelCoverageLabel => 'Độ bao phủ';
 
   @override
   String chartDistributionTitle(Object tag) {
-    return '$tag Distribution';
+    return 'Phân bổ $tag';
   }
 
   @override
-  String get shareAddToLogPickerTitle => 'Choose a log';
+  String get shareAddToLogPickerTitle => 'Chọn một nhật ký';
 
   @override
-  String get attachmentAddErrorDescription => 'Failed to add attachment!';
+  String get attachmentAddErrorDescription => 'Thêm tệp đính kèm thất bại!';
 
   @override
-  String get attachmentLoadFailed => 'Could not open this attachment';
+  String get attachmentLoadFailed => 'Không thể mở tệp đính kèm này';
 
   @override
-  String get attachmentNoAppToOpen => 'No app can open this attachment';
+  String get attachmentNoAppToOpen =>
+      'Không có ứng dụng nào có thể mở tệp đính kèm này';
 
   @override
-  String get recorderDiscardTitle => 'Discard recording?';
+  String get recorderDiscardTitle => 'Hủy bản ghi âm?';
 
   @override
-  String get recorderDiscardDescription => 'This recording will be deleted.';
+  String get recorderDiscardDescription => 'Bản ghi âm này sẽ bị xóa.';
 
   @override
-  String get recorderDiscardAction => 'Discard';
+  String get recorderDiscardAction => 'Hủy';
 
   @override
-  String get recorderPermissionDenied =>
-      'Microphone permission is required to record audio';
+  String get recorderPermissionDenied => 'Cần cấp quyền microphone để ghi âm';
 
   @override
-  String get recorderErrorDescription => 'Failed to record audio!';
+  String get recorderErrorDescription => 'Ghi âm thất bại!';
 }

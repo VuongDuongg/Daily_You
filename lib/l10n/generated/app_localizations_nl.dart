@@ -21,19 +21,19 @@ class AppLocalizationsNl extends AppLocalizations {
   String get actionTakePhoto => 'Trek foto';
 
   @override
-  String get actionTakeVideo => 'Take video';
+  String get actionTakeVideo => 'Quay video';
 
   @override
-  String get actionRecordAudio => 'Record audio';
+  String get actionRecordAudio => 'Ghi âm';
 
   @override
-  String get actionAddImage => 'Add image';
+  String get actionAddImage => 'Thêm hình ảnh';
 
   @override
-  String get actionAddVideo => 'Add video';
+  String get actionAddVideo => 'Thêm video';
 
   @override
-  String get actionAddAudio => 'Add audio';
+  String get actionAddAudio => 'Thêm âm thanh';
 
   @override
   String get actionToday => 'Vandaag';
@@ -48,7 +48,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get jumpToMonthTitle => 'Spring naar maand';
 
   @override
-  String get jumpToLogTitle => 'Jump to log';
+  String get jumpToLogTitle => 'Chuyển đến nhật ký';
 
   @override
   String get flashbacksTitle => 'Terugblikken';
@@ -99,7 +99,7 @@ class AppLocalizationsNl extends AppLocalizations {
   }
 
   @override
-  String get flashbackOnThisDay => 'On This Day';
+  String get flashbackOnThisDay => 'Vào ngày này';
 
   @override
   String get pageGalleryTitle => 'Galerij';
@@ -123,8 +123,7 @@ class AppLocalizationsNl extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$count days',
-      one: '$count day',
+      other: '$count ngày',
     );
     return '$_temp0';
   }
@@ -144,7 +143,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get noLogs => 'Geen logs te tonen…';
 
   @override
-  String get noResults => 'No Results…';
+  String get noResults => 'Không có kết quả…';
 
   @override
   String get sortDateTitle => 'Datum';
@@ -185,26 +184,26 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String chartOverTimeTitle(Object tag) {
-    return '$tag Over Time';
+    return '$tag theo thời gian';
   }
 
   @override
-  String get chartGroupingLabel => 'Group by';
+  String get chartGroupingLabel => 'Nhóm theo';
 
   @override
-  String get chartGroupingDay => 'Day';
+  String get chartGroupingDay => 'Ngày';
 
   @override
-  String get chartGroupingWeek => 'Week';
+  String get chartGroupingWeek => 'Tuần';
 
   @override
-  String get chartGroupingMonth => 'Month';
+  String get chartGroupingMonth => 'Tháng';
 
   @override
-  String get chartGroupingYear => 'Year';
+  String get chartGroupingYear => 'Năm';
 
   @override
-  String get chartSmoothingLabel => 'Smoothing';
+  String get chartSmoothingLabel => 'Làm mượt';
 
   @override
   String streakCurrent(num count) {
@@ -231,7 +230,7 @@ class AppLocalizationsNl extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Great Days $count',
+      other: 'Ngày tuyệt vời $count',
     );
     return '$_temp0';
   }
@@ -259,24 +258,25 @@ class AppLocalizationsNl extends AppLocalizations {
       'Ga door met lokale database';
 
   @override
-  String get databaseMigrationErrorTitle => 'Couldn\'t Move Your Data';
+  String get databaseMigrationErrorTitle =>
+      'Không thể di chuyển dữ liệu của bạn';
 
   @override
   String get databaseMigrationErrorDescription =>
-      'Your entries are safe but couldn\'t be moved to the app\'s storage.\n\nTry again, and report the issue if it keeps happening.';
+      'Các nhật ký của bạn vẫn an toàn nhưng không thể chuyển sang bộ lưu trữ của ứng dụng.\n\nHãy thử lại và báo cáo sự cố nếu lỗi vẫn tiếp diễn.';
 
   @override
-  String get databaseMigrationErrorRetry => 'Retry';
+  String get databaseMigrationErrorRetry => 'Thử lại';
 
   @override
-  String get databaseNewerErrorTitle => 'Update Required';
+  String get databaseNewerErrorTitle => 'Yêu cầu cập nhật';
 
   @override
   String get databaseNewerErrorDescription =>
-      'Your data was saved by a newer version of Daily You. This version can\'t open it safely. Update the app to continue.';
+      'Dữ liệu của bạn được lưu bởi phiên bản Daily You mới hơn. Phiên bản này không thể mở dữ liệu an toàn. Vui lòng cập nhật ứng dụng để tiếp tục.';
 
   @override
-  String get errorReport => 'Report Issue';
+  String get errorReport => 'Báo cáo sự cố';
 
   @override
   String get lastModified => 'Gewijzigd';
@@ -302,21 +302,21 @@ class AppLocalizationsNl extends AppLocalizations {
       'Weet je zeker dat je deze foto wil verwijderen?';
 
   @override
-  String get deleteAttachmentTitle => 'Delete Attachment';
+  String get deleteAttachmentTitle => 'Xóa tệp đính kèm';
 
   @override
   String get deleteAttachmentDescription =>
-      'Do you want to delete this attachment?';
+      'Bạn có chắc chắn muốn xóa tệp đính kèm này?';
 
   @override
-  String get largeAttachmentWarningTitle => 'Large attachment';
+  String get largeAttachmentWarningTitle => 'Tệp đính kèm lớn';
 
   @override
   String get largeAttachmentWarningDescription =>
-      'This attachment is large and will increase your backup size.';
+      'Tệp đính kèm này có dung lượng lớn và sẽ làm tăng kích thước bản sao lưu của bạn.';
 
   @override
-  String get dontShowAgain => 'Don\'t show again';
+  String get dontShowAgain => 'Không hiển thị lại';
 
   @override
   String get pageSettingsTitle => 'Instellingen';
@@ -343,13 +343,13 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsFirstDayOfWeek => 'Eerste dag van de week';
 
   @override
-  String get settingsCalendarSystem => 'Calendar System';
+  String get settingsCalendarSystem => 'Hệ thống lịch';
 
   @override
-  String get calendarSystemGregorian => 'Gregorian';
+  String get calendarSystemGregorian => 'Dương lịch (Gregorian)';
 
   @override
-  String get calendarSystemJalali => 'Jalali';
+  String get calendarSystemJalali => 'Lịch Ba Tư (Jalali)';
 
   @override
   String get settingsUseSystemAccentColor =>
@@ -371,22 +371,22 @@ class AppLocalizationsNl extends AppLocalizations {
   String get moodIconPrompt => 'Voer een icoon in';
 
   @override
-  String get settingsFlashbacksViewLayout => 'Flashbacks View Layout';
+  String get settingsFlashbacksViewLayout => 'Bố cục xem hồi tưởng';
 
   @override
-  String get settingsGalleryViewLayout => 'Gallery View Layout';
+  String get settingsGalleryViewLayout => 'Bố cục xem thư viện';
 
   @override
-  String get settingsHideImagesInGallery => 'Hide Images In Gallery';
+  String get settingsHideImagesInGallery => 'Ẩn hình ảnh trong thư viện';
 
   @override
-  String get settingsHideImages => 'Hide Images';
+  String get settingsHideImages => 'Ẩn hình ảnh';
 
   @override
-  String get pageCalendarTitle => 'Calendar';
+  String get pageCalendarTitle => 'Lịch';
 
   @override
-  String get viewLayoutList => 'List';
+  String get viewLayoutList => 'Danh sách';
 
   @override
   String get viewLayoutGrid => 'Raster';
@@ -406,7 +406,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsDailyReminderTitle => 'Dagelijkse herinnering';
 
   @override
-  String get settingsOnThisDayDescription => 'Revisit past memories';
+  String get settingsOnThisDayDescription => 'Xem lại những kỷ niệm đã qua';
 
   @override
   String get settingsDailyReminderDescription =>
@@ -454,10 +454,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get noTemplatesDescription => 'Nog geen sjablonen aangemaakt…';
 
   @override
-  String get templateVariableTime => 'Time';
+  String get templateVariableTime => 'Thời gian';
 
   @override
-  String get templateDefaultTimestampTitle => 'Timestamp';
+  String get templateDefaultTimestampTitle => 'Dấu thời gian';
 
   @override
   String templateDefaultTimestampBody(Object date, Object time) {
@@ -465,115 +465,116 @@ class AppLocalizationsNl extends AppLocalizations {
   }
 
   @override
-  String get templateDefaultSummaryTitle => 'Day Summary';
+  String get templateDefaultSummaryTitle => 'Tóm tắt ngày';
 
   @override
-  String get templateDefaultSummaryBody => '### Summary\n- \n\n### Quote\n> ';
+  String get templateDefaultSummaryBody =>
+      '### Tóm tắt\n- \n\n### Trích dẫn\n> ';
 
   @override
-  String get templateDefaultReflectionTitle => 'Reflection';
+  String get templateDefaultReflectionTitle => 'Suy ngẫm';
 
   @override
   String get templateDefaultReflectionBody =>
-      '### What did you enjoy about today?\n- \n\n### What are you thankful for?\n- \n\n### What are you looking forward to?\n- ';
+      '### Bạn cảm thấy thích điều gì hôm nay?\n- \n\n### Bạn biết ơn điều gì?\n- \n\n### Bạn đang mong chờ điều gì?\n- ';
 
   @override
-  String get settingsTagsTitle => 'Tags';
+  String get settingsTagsTitle => 'Thẻ';
 
   @override
-  String get manageTags => 'Manage Tags';
+  String get manageTags => 'Quản lý thẻ';
 
   @override
-  String get tagTypeLabelTitle => 'Label';
+  String get tagTypeLabelTitle => 'Nhãn';
 
   @override
-  String get tagTypeTrackerTitle => 'Tracker';
+  String get tagTypeTrackerTitle => 'Bộ theo dõi';
 
   @override
-  String get nameHint => 'Name';
+  String get nameHint => 'Tên';
 
   @override
-  String get tagColorLabel => 'Color';
+  String get tagColorLabel => 'Màu sắc';
 
   @override
-  String get iconPickerTitle => 'Choose Icon';
+  String get iconPickerTitle => 'Chọn biểu tượng';
 
   @override
-  String get iconPickerIconsTab => 'Icons';
+  String get iconPickerIconsTab => 'Biểu tượng';
 
   @override
-  String get iconPickerCustomTab => 'Custom';
+  String get iconPickerCustomTab => 'Tùy chỉnh';
 
   @override
-  String get iconPickerSearchHint => 'Search icons…';
+  String get iconPickerSearchHint => 'Tìm kiếm biểu tượng…';
 
   @override
-  String get colorPickerTitle => 'Choose Color';
+  String get colorPickerTitle => 'Chọn màu sắc';
 
   @override
-  String get colorPickerPaletteTab => 'Colors';
+  String get colorPickerPaletteTab => 'Màu sắc';
 
   @override
-  String get iconGroupMoodPeople => 'Mood & People';
+  String get iconGroupMoodPeople => 'Tâm trạng & Con người';
 
   @override
-  String get iconGroupHealth => 'Health';
+  String get iconGroupHealth => 'Sức khỏe';
 
   @override
-  String get iconGroupWorkFinance => 'Work & Finance';
+  String get iconGroupWorkFinance => 'Công việc & Tài chính';
 
   @override
-  String get iconGroupHabitsGoals => 'Habits & Goals';
+  String get iconGroupHabitsGoals => 'Thói quen & Mục tiêu';
 
   @override
-  String get iconGroupNature => 'Nature';
+  String get iconGroupNature => 'Thiên nhiên';
 
   @override
-  String get iconGroupFoodDrink => 'Food & Drink';
+  String get iconGroupFoodDrink => 'Ẩm thực & Đồ uống';
 
   @override
-  String get iconGroupHome => 'Home';
+  String get iconGroupHome => 'Nhà cửa';
 
   @override
-  String get iconGroupTravel => 'Travel';
+  String get iconGroupTravel => 'Du lịch';
 
   @override
-  String get iconGroupSymbols => 'Symbols';
+  String get iconGroupSymbols => 'Ký hiệu';
 
   @override
-  String get tagCategoryLabel => 'Category';
+  String get tagCategoryLabel => 'Danh mục';
 
   @override
-  String get tagLabel => 'Tag';
+  String get tagLabel => 'Thẻ';
 
   @override
-  String get tagCategoryUncategorized => 'Uncategorized';
+  String get tagCategoryUncategorized => 'Chưa phân loại';
 
   @override
-  String get newCategoryTitle => 'New Category';
+  String get newCategoryTitle => 'Danh mục mới';
 
   @override
-  String get shareButtonLabel => 'Share';
+  String get shareButtonLabel => 'Chia sẻ';
 
   @override
-  String get importErrorDescription => 'Failed to import file!';
+  String get importErrorDescription => 'Nhập tệp thất bại!';
 
   @override
-  String get exportErrorDescription => 'Failed to export file!';
+  String get exportErrorDescription => 'Xuất tệp thất bại!';
 
   @override
-  String get deleteTitle => 'Delete';
+  String get deleteTitle => 'Xóa';
 
   @override
   String deleteTagMessage(num count, Object name) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: ' It is used in $count logs.',
-      one: ' It is used in 1 log.',
+      other: ' Thẻ này đang được dùng trong $count nhật ký.',
+      one: ' Thẻ này đang được dùng trong 1 nhật ký.',
       zero: '',
     );
-    return 'Delete \"$name\"?$_temp0';
+    return 'Xóa \"$name\"?$_temp0';
   }
 
   @override
@@ -581,96 +582,96 @@ class AppLocalizationsNl extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: ' Its $count tags will also be deleted.',
-      one: ' Its 1 tag will also be deleted.',
+      other: ' $count thẻ thuộc danh mục này cũng sẽ bị xóa.',
+      one: ' 1 thẻ thuộc danh mục này cũng sẽ bị xóa.',
       zero: '',
     );
-    return 'Delete \"$name\"?$_temp0';
+    return 'Xóa \"$name\"?$_temp0';
   }
 
   @override
   String deleteTemplateMessage(Object name) {
-    return 'Delete \"$name\"?';
+    return 'Xóa \"$name\"?';
   }
 
   @override
-  String get filterTagsTitle => 'Filter';
+  String get filterTagsTitle => 'Bộ lọc';
 
   @override
-  String get tagFilterModeAny => 'Any Tag';
+  String get tagFilterModeAny => 'Bất kỳ thẻ nào';
 
   @override
-  String get tagFilterModeAll => 'All Tags';
+  String get tagFilterModeAll => 'Tất cả các thẻ';
 
   @override
-  String get clearAllFilters => 'Clear All';
+  String get clearAllFilters => 'Xóa tất cả bộ lọc';
 
   @override
-  String get noTagsFilterLabel => 'No Tags';
+  String get noTagsFilterLabel => 'Không có thẻ';
 
   @override
-  String get addTagsTitle => 'Add Tags';
+  String get addTagsTitle => 'Thêm thẻ';
 
   @override
-  String get addTagsSearchHint => 'Search tags…';
+  String get addTagsSearchHint => 'Tìm kiếm thẻ…';
 
   @override
-  String get tagPickerSortManualLabel => 'Manual order';
+  String get tagPickerSortManualLabel => 'Thứ tự thủ công';
 
   @override
-  String get tagPickerSortUsageLabel => 'Sort by usage';
+  String get tagPickerSortUsageLabel => 'Sắp xếp theo mức độ sử dụng';
 
   @override
-  String get tagFavoriteName => 'Favorite';
+  String get tagFavoriteName => 'Yêu thích';
 
   @override
-  String get tagEnergyName => 'Energy';
+  String get tagEnergyName => 'Năng lượng';
 
   @override
-  String get tagCategoryActivitiesName => 'Activities';
+  String get tagCategoryActivitiesName => 'Hoạt động';
 
   @override
-  String get tagExerciseName => 'Exercise';
+  String get tagExerciseName => 'Tập thể dục';
 
   @override
-  String get tagSocializingName => 'Socializing';
+  String get tagSocializingName => 'Giao lưu';
 
   @override
-  String get tagHobbyName => 'Hobby';
+  String get tagHobbyName => 'Sở thích';
 
   @override
-  String get tagEntertainmentName => 'Entertainment';
+  String get tagEntertainmentName => 'Giải trí';
 
   @override
-  String get tagDiningName => 'Dining';
+  String get tagDiningName => 'Ăn uống';
 
   @override
-  String get tagChoresName => 'Chores';
+  String get tagChoresName => 'Việc vặt';
 
   @override
-  String get tagCategoryEmotionsName => 'Emotions';
+  String get tagCategoryEmotionsName => 'Cảm xúc';
 
   @override
-  String get tagExcitedName => 'Excited';
+  String get tagExcitedName => 'Hào hứng';
 
   @override
-  String get tagGratefulName => 'Grateful';
+  String get tagGratefulName => 'Biết ơn';
 
   @override
-  String get tagCalmName => 'Calm';
+  String get tagCalmName => 'Bình yên';
 
   @override
-  String get tagTiredName => 'Tired';
+  String get tagTiredName => 'Mệt mỏi';
 
   @override
-  String get tagAnxiousName => 'Anxious';
+  String get tagAnxiousName => 'Lo lắng';
 
   @override
-  String get tagAnnoyedName => 'Annoyed';
+  String get tagAnnoyedName => 'Bực bội';
 
   @override
   String get welcomeLogBodyText =>
-      '## Welcome to Daily You\n\n> Every day is worth remembering, capture it!\n\n**Daily You** is free, [open source](https://github.com/Demizo/Daily_You), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you\'re journaling, reflecting, or just noting what made you smile, **Daily You** gives you a private space that\'s _truly your own_.';
+      '## Chào mừng bạn đến với Daily You\n\n> Mỗi ngày đều đáng nhớ, hãy lưu giữ từng khoảnh khắc!\n\n**Daily You** hoàn toàn miễn phí, [mã nguồn mở](https://github.com/Demizo/Daily_You) và được hỗ trợ bởi cộng đồng. Ứng dụng được xây dựng trên niềm tin rằng nhật ký phải là của riêng bạn, không phải một sản phẩm thương mại:\n\n- Không quảng cáo\n- Không tính năng bị khóa\n- Không theo dõi hay thu thập dữ liệu\n\nDù bạn viết nhật ký, suy ngẫm hay chỉ ghi lại điều khiến mình mỉm cười, **Daily You** mang đến cho bạn một không gian riêng tư _thực sự thuộc về bạn_.';
 
   @override
   String get settingsStorageTitle => 'Opslag';
@@ -679,7 +680,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsImageQuality => 'Afbeeldingskwaliteit';
 
   @override
-  String get settingsMediaQualityTitle => 'Media Quality';
+  String get settingsMediaQualityTitle => 'Chất lượng tệp phương tiện';
 
   @override
   String get imageQualityHigh => 'Hoog';
@@ -694,7 +695,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get imageQualityNoCompression => 'Geen compressie';
 
   @override
-  String get settingsStorageUsage => 'Storage Usage';
+  String get settingsStorageUsage => 'Dung lượng đã dùng';
 
   @override
   String get settingsLogFolder => 'Logmap';
@@ -703,10 +704,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsImageFolder => 'Afbeeldingsmap';
 
   @override
-  String get settingsExternalSyncTitle => 'Sync with External Location';
+  String get settingsExternalSyncTitle => 'Đồng bộ với vị trí ngoài';
 
   @override
-  String get chooseFolderHint => 'Choose a folder';
+  String get chooseFolderHint => 'Chọn một thư mục';
 
   @override
   String get warningTitle => 'Waarschuwing';
@@ -726,8 +727,7 @@ class AppLocalizationsNl extends AppLocalizations {
       'Kan de afbeeldingsmap niet wijzigen!';
 
   @override
-  String get syncErrorDescription =>
-      'Failed to sync with the external location!';
+  String get syncErrorDescription => 'Đồng bộ với vị trí ngoài thất bại!';
 
   @override
   String get backupErrorDescription => 'Kan geen back-up maken!';
@@ -749,56 +749,57 @@ class AppLocalizationsNl extends AppLocalizations {
       'Het herstellen van een back-up zal je huidige data overschrijven!';
 
   @override
-  String get settingsBackupPasswordProtect => 'Password Protect Backups';
+  String get settingsBackupPasswordProtect => 'Bảo vệ sao lưu bằng mật khẩu';
 
   @override
-  String get backupEncryptedTitle => 'Encrypted Backup';
+  String get backupEncryptedTitle => 'Bản sao lưu đã mã hóa';
 
   @override
-  String get backupEncryptedContent => 'This backup is password protected.';
+  String get backupEncryptedContent =>
+      'Bản sao lưu này được bảo vệ bằng mật khẩu.';
 
   @override
-  String get settingsAutoBackup => 'Automatic Backups';
+  String get settingsAutoBackup => 'Tự động sao lưu';
 
   @override
-  String get settingsAutoBackupLocation => 'Backup Location';
+  String get settingsAutoBackupLocation => 'Vị trí sao lưu';
 
   @override
-  String get settingsAutoBackupInterval => 'Backup Interval';
+  String get settingsAutoBackupInterval => 'Tần suất sao lưu';
 
   @override
-  String get settingsAutoBackupIntervalDaily => 'Daily';
+  String get settingsAutoBackupIntervalDaily => 'Hàng ngày';
 
   @override
-  String get settingsAutoBackupIntervalWeekly => 'Weekly';
+  String get settingsAutoBackupIntervalWeekly => 'Hàng tuần';
 
   @override
-  String get settingsAutoBackupIntervalMonthly => 'Monthly';
+  String get settingsAutoBackupIntervalMonthly => 'Hàng tháng';
 
   @override
-  String get settingsAutoBackupMaxCount => 'Backups To Keep';
+  String get settingsAutoBackupMaxCount => 'Số bản sao lưu giữ lại';
 
   @override
-  String get settingsAutoBackupRequireCharging => 'Only While Charging';
+  String get settingsAutoBackupRequireCharging => 'Chỉ khi đang sạc';
 
   @override
   String settingsBackupLast(Object time) {
-    return 'Last backup $time';
+    return 'Sao lưu gần nhất: $time';
   }
 
   @override
-  String get settingsBackupNever => 'Never backed up';
+  String get settingsBackupNever => 'Chưa từng sao lưu';
 
   @override
   String settingsAutoBackupNext(Object time) {
-    return 'Next backup $time';
+    return 'Sao lưu tiếp theo: $time';
   }
 
   @override
-  String get settingsAutoBackupKeepAll => 'All';
+  String get settingsAutoBackupKeepAll => 'Tất cả';
 
   @override
-  String get autoBackupFailedTitle => 'Backup Failed';
+  String get autoBackupFailedTitle => 'Sao lưu tự động thất bại';
 
   @override
   String tranferStatus(Object percent) {
@@ -817,12 +818,12 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String encryptingBackupStatus(Object percent) {
-    return 'Encrypting Backup… $percent%';
+    return 'Đang mã hóa bản sao lưu… $percent%';
   }
 
   @override
   String decryptingBackupStatus(Object percent) {
-    return 'Decrypting Backup… $percent%';
+    return 'Đang giải mã bản sao lưu… $percent%';
   }
 
   @override
@@ -830,11 +831,11 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String migratingImagesStatus(Object current, Object total) {
-    return 'Migrating photos… $current/$total';
+    return 'Đang chuyển ảnh… $current/$total';
   }
 
   @override
-  String get settingsExport => 'Export';
+  String get settingsExport => 'Xuất dữ liệu';
 
   @override
   String get settingsExportToAnotherFormat =>
@@ -845,16 +846,16 @@ class AppLocalizationsNl extends AppLocalizations {
       'Dit zou niet als een back-up gebruikt moeten worden!';
 
   @override
-  String get exportLogs => 'Export Logs';
+  String get exportLogs => 'Xuất nhật ký';
 
   @override
-  String get exportImages => 'Export Images';
+  String get exportImages => 'Xuất hình ảnh';
 
   @override
-  String get exportIncludeTitle => 'Include';
+  String get exportIncludeTitle => 'Bao gồm';
 
   @override
-  String get settingsImport => 'Import';
+  String get settingsImport => 'Nhập dữ liệu';
 
   @override
   String get settingsImportFromAnotherApp => 'Importeer vanuit een andere app';
@@ -867,10 +868,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsHelpTranslate => 'Help vertalen';
 
   @override
-  String get importLogs => 'Import Logs';
+  String get importLogs => 'Nhập nhật ký';
 
   @override
-  String get importImages => 'Import Images';
+  String get importImages => 'Nhập hình ảnh';
 
   @override
   String get logFormatTitle => 'Kies formaat';
@@ -984,7 +985,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsSourceCode => 'Broncode';
 
   @override
-  String get settingsOpenSourceLicenses => 'Open Source Licenses';
+  String get settingsOpenSourceLicenses => 'Giấy phép mã nguồn mở';
 
   @override
   String get settingsMadeWithLove => 'Gemaakt met ❤️';
@@ -993,10 +994,10 @@ class AppLocalizationsNl extends AppLocalizations {
   String get settingsConsiderSupporting => 'overweeg te ondersteunen';
 
   @override
-  String get imagesTitle => 'Images';
+  String get imagesTitle => 'Hình ảnh';
 
   @override
-  String get audioTitle => 'Audio';
+  String get audioTitle => 'Âm thanh';
 
   @override
   String get videoTitle => 'Video';
@@ -1005,50 +1006,50 @@ class AppLocalizationsNl extends AppLocalizations {
   String get tagMoodTitle => 'Humeur';
 
   @override
-  String get calendarTagDisplayLabel => 'Tag';
+  String get calendarTagDisplayLabel => 'Thẻ';
 
   @override
-  String get selectTagTitle => 'Select Tag';
+  String get selectTagTitle => 'Chọn thẻ';
 
   @override
-  String get labelPresentLabel => 'Present';
+  String get labelPresentLabel => 'Có mặt';
 
   @override
-  String get labelAbsentLabel => 'Absent';
+  String get labelAbsentLabel => 'Vắng mặt';
 
   @override
-  String get labelCoverageLabel => 'Coverage';
+  String get labelCoverageLabel => 'Độ bao phủ';
 
   @override
   String chartDistributionTitle(Object tag) {
-    return '$tag Distribution';
+    return 'Phân bổ $tag';
   }
 
   @override
-  String get shareAddToLogPickerTitle => 'Choose a log';
+  String get shareAddToLogPickerTitle => 'Chọn một nhật ký';
 
   @override
-  String get attachmentAddErrorDescription => 'Failed to add attachment!';
+  String get attachmentAddErrorDescription => 'Thêm tệp đính kèm thất bại!';
 
   @override
-  String get attachmentLoadFailed => 'Could not open this attachment';
+  String get attachmentLoadFailed => 'Không thể mở tệp đính kèm này';
 
   @override
-  String get attachmentNoAppToOpen => 'No app can open this attachment';
+  String get attachmentNoAppToOpen =>
+      'Không có ứng dụng nào có thể mở tệp đính kèm này';
 
   @override
-  String get recorderDiscardTitle => 'Discard recording?';
+  String get recorderDiscardTitle => 'Hủy bản ghi âm?';
 
   @override
-  String get recorderDiscardDescription => 'This recording will be deleted.';
+  String get recorderDiscardDescription => 'Bản ghi âm này sẽ bị xóa.';
 
   @override
-  String get recorderDiscardAction => 'Discard';
+  String get recorderDiscardAction => 'Hủy';
 
   @override
-  String get recorderPermissionDenied =>
-      'Microphone permission is required to record audio';
+  String get recorderPermissionDenied => 'Cần cấp quyền microphone để ghi âm';
 
   @override
-  String get recorderErrorDescription => 'Failed to record audio!';
+  String get recorderErrorDescription => 'Ghi âm thất bại!';
 }

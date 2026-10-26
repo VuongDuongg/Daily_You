@@ -316,7 +316,7 @@ class TagsProvider with ChangeNotifier {
       final langOnly = Locale(deviceLocale.languageCode);
       locale = AppLocalizations.delegate.isSupported(langOnly)
           ? langOnly
-          : const Locale('en');
+          : const Locale('vi');
     }
     final l10n = await AppLocalizations.delegate.load(locale);
     final now = DateTime.now();

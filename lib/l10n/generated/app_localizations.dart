@@ -171,469 +171,469 @@ abstract class AppLocalizations {
   /// No description provided for @dailyReminderTitle.
   ///
   /// In en, this message translates to:
-  /// **'Log Today!'**
+  /// **'Ghi chép hôm nay!'**
   String get dailyReminderTitle;
 
   /// No description provided for @dailyReminderDescription.
   ///
   /// In en, this message translates to:
-  /// **'Take your daily log…'**
+  /// **'Hãy ghi chép nhật ký hàng ngày của bạn…'**
   String get dailyReminderDescription;
 
   /// No description provided for @actionTakePhoto.
   ///
   /// In en, this message translates to:
-  /// **'Take photo'**
+  /// **'Chụp ảnh'**
   String get actionTakePhoto;
 
   /// No description provided for @actionTakeVideo.
   ///
   /// In en, this message translates to:
-  /// **'Take video'**
+  /// **'Quay video'**
   String get actionTakeVideo;
 
   /// No description provided for @actionRecordAudio.
   ///
   /// In en, this message translates to:
-  /// **'Record audio'**
+  /// **'Ghi âm'**
   String get actionRecordAudio;
 
   /// No description provided for @actionAddImage.
   ///
   /// In en, this message translates to:
-  /// **'Add image'**
+  /// **'Thêm hình ảnh'**
   String get actionAddImage;
 
   /// No description provided for @actionAddVideo.
   ///
   /// In en, this message translates to:
-  /// **'Add video'**
+  /// **'Thêm video'**
   String get actionAddVideo;
 
   /// No description provided for @actionAddAudio.
   ///
   /// In en, this message translates to:
-  /// **'Add audio'**
+  /// **'Thêm âm thanh'**
   String get actionAddAudio;
 
   /// No description provided for @actionToday.
   ///
   /// In en, this message translates to:
-  /// **'Today'**
+  /// **'Hôm nay'**
   String get actionToday;
 
   /// No description provided for @actionOtherDay.
   ///
   /// In en, this message translates to:
-  /// **'Other day'**
+  /// **'Ngày khác'**
   String get actionOtherDay;
 
   /// No description provided for @pageHomeTitle.
   ///
   /// In en, this message translates to:
-  /// **'Home'**
+  /// **'Trang chủ'**
   String get pageHomeTitle;
 
   /// No description provided for @jumpToMonthTitle.
   ///
   /// In en, this message translates to:
-  /// **'Jump to month'**
+  /// **'Chuyển đến tháng'**
   String get jumpToMonthTitle;
 
   /// No description provided for @jumpToLogTitle.
   ///
   /// In en, this message translates to:
-  /// **'Jump to log'**
+  /// **'Chuyển đến nhật ký'**
   String get jumpToLogTitle;
 
   /// No description provided for @flashbacksTitle.
   ///
   /// In en, this message translates to:
-  /// **'Flashbacks'**
+  /// **'Hồi tưởng'**
   String get flashbacksTitle;
 
   /// No description provided for @settingsFlashbacksExcludeBadDays.
   ///
   /// In en, this message translates to:
-  /// **'Exclude bad days'**
+  /// **'Loại trừ những ngày tệ'**
   String get settingsFlashbacksExcludeBadDays;
 
   /// No description provided for @flaskbacksEmpty.
   ///
   /// In en, this message translates to:
-  /// **'No Flashbacks Yet…'**
+  /// **'Chưa có hồi tưởng nào…'**
   String get flaskbacksEmpty;
 
   /// No description provided for @flashbackGoodDay.
   ///
   /// In en, this message translates to:
-  /// **'A Good Day'**
+  /// **'Một ngày tuyệt vời'**
   String get flashbackGoodDay;
 
   /// No description provided for @flashbackRandomDay.
   ///
   /// In en, this message translates to:
-  /// **'A Random Day'**
+  /// **'Một ngày ngẫu nhiên'**
   String get flashbackRandomDay;
 
   /// No description provided for @flashbackWeek.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, one{{count} Week Ago} other{{count} Weeks Ago}}'**
+  /// **'{count, plural, other{{count} tuần trước}}'**
   String flashbackWeek(num count);
 
   /// No description provided for @flashbackMonth.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, one{{count} Month Ago} other{{count} Months Ago}}'**
+  /// **'{count, plural, other{{count} tháng trước}}'**
   String flashbackMonth(num count);
 
   /// No description provided for @flashbackYear.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, one{{count} Year Ago} other{{count} Years Ago}}'**
+  /// **'{count, plural, other{{count} năm trước}}'**
   String flashbackYear(num count);
 
   /// No description provided for @flashbackOnThisDay.
   ///
   /// In en, this message translates to:
-  /// **'On This Day'**
+  /// **'Vào ngày này'**
   String get flashbackOnThisDay;
 
   /// No description provided for @pageGalleryTitle.
   ///
   /// In en, this message translates to:
-  /// **'Gallery'**
+  /// **'Thư viện'**
   String get pageGalleryTitle;
 
   /// No description provided for @searchLogsHint.
   ///
   /// In en, this message translates to:
-  /// **'Search Logs…'**
+  /// **'Tìm kiếm nhật ký…'**
   String get searchLogsHint;
 
   /// No description provided for @logCount.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, one{{count} log} other{{count} logs}}'**
+  /// **'{count, plural, other{{count} nhật ký}}'**
   String logCount(num count);
 
   /// No description provided for @dayCount.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, one{{count} day} other{{count} days}}'**
+  /// **'{count, plural, other{{count} ngày}}'**
   String dayCount(num count);
 
   /// No description provided for @wordCount.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, one{{count} word} other{{count} words}}'**
+  /// **'{count, plural, other{{count} từ}}'**
   String wordCount(num count);
 
   /// No description provided for @noLogs.
   ///
   /// In en, this message translates to:
-  /// **'No Logs…'**
+  /// **'Không có nhật ký nào…'**
   String get noLogs;
 
   /// No description provided for @noResults.
   ///
   /// In en, this message translates to:
-  /// **'No Results…'**
+  /// **'Không có kết quả…'**
   String get noResults;
 
   /// No description provided for @sortDateTitle.
   ///
   /// In en, this message translates to:
-  /// **'Date'**
+  /// **'Ngày'**
   String get sortDateTitle;
 
   /// No description provided for @sortOrderAscendingTitle.
   ///
   /// In en, this message translates to:
-  /// **'Ascending'**
+  /// **'Tăng dần'**
   String get sortOrderAscendingTitle;
 
   /// No description provided for @sortOrderDescendingTitle.
   ///
   /// In en, this message translates to:
-  /// **'Descending'**
+  /// **'Giảm dần'**
   String get sortOrderDescendingTitle;
 
   /// No description provided for @pageStatisticsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Statistics'**
+  /// **'Thống kê'**
   String get pageStatisticsTitle;
 
   /// No description provided for @statisticsNotEnoughData.
   ///
   /// In en, this message translates to:
-  /// **'Not enough data…'**
+  /// **'Không đủ dữ liệu…'**
   String get statisticsNotEnoughData;
 
   /// No description provided for @statisticsRangeOneMonth.
   ///
   /// In en, this message translates to:
-  /// **'1 Month'**
+  /// **'1 tháng'**
   String get statisticsRangeOneMonth;
 
   /// No description provided for @statisticsRangeSixMonths.
   ///
   /// In en, this message translates to:
-  /// **'6 Months'**
+  /// **'6 tháng'**
   String get statisticsRangeSixMonths;
 
   /// No description provided for @statisticsRangeOneYear.
   ///
   /// In en, this message translates to:
-  /// **'1 Year'**
+  /// **'1 năm'**
   String get statisticsRangeOneYear;
 
   /// No description provided for @statisticsRangeAllTime.
   ///
   /// In en, this message translates to:
-  /// **'All Time'**
+  /// **'Tất cả thời gian'**
   String get statisticsRangeAllTime;
 
   /// No description provided for @chartSummaryTitle.
   ///
   /// In en, this message translates to:
-  /// **'{tag} Summary'**
+  /// **'Tóm tắt {tag}'**
   String chartSummaryTitle(Object tag);
 
   /// No description provided for @chartByDayTitle.
   ///
   /// In en, this message translates to:
-  /// **'{tag} By Day'**
+  /// **'{tag} theo ngày'**
   String chartByDayTitle(Object tag);
 
   /// No description provided for @chartOverTimeTitle.
   ///
   /// In en, this message translates to:
-  /// **'{tag} Over Time'**
+  /// **'{tag} theo thời gian'**
   String chartOverTimeTitle(Object tag);
 
   /// No description provided for @chartGroupingLabel.
   ///
   /// In en, this message translates to:
-  /// **'Group by'**
+  /// **'Nhóm theo'**
   String get chartGroupingLabel;
 
   /// No description provided for @chartGroupingDay.
   ///
   /// In en, this message translates to:
-  /// **'Day'**
+  /// **'Ngày'**
   String get chartGroupingDay;
 
   /// No description provided for @chartGroupingWeek.
   ///
   /// In en, this message translates to:
-  /// **'Week'**
+  /// **'Tuần'**
   String get chartGroupingWeek;
 
   /// No description provided for @chartGroupingMonth.
   ///
   /// In en, this message translates to:
-  /// **'Month'**
+  /// **'Tháng'**
   String get chartGroupingMonth;
 
   /// No description provided for @chartGroupingYear.
   ///
   /// In en, this message translates to:
-  /// **'Year'**
+  /// **'Năm'**
   String get chartGroupingYear;
 
   /// No description provided for @chartSmoothingLabel.
   ///
   /// In en, this message translates to:
-  /// **'Smoothing'**
+  /// **'Làm mượt'**
   String get chartSmoothingLabel;
 
   /// No description provided for @streakCurrent.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, other{Current Streak {count}}}'**
+  /// **'{count, plural, other{Chuỗi hiện tại {count}}}'**
   String streakCurrent(num count);
 
   /// No description provided for @streakLongest.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, other{Longest Streak {count}}}'**
+  /// **'{count, plural, other{Chuỗi dài nhất {count}}}'**
   String streakLongest(num count);
 
   /// No description provided for @streakGreatDays.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, other{Great Days {count}}}'**
+  /// **'{count, plural, other{Ngày tuyệt vời {count}}}'**
   String streakGreatDays(num count);
 
   /// No description provided for @streakSinceBadDay.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, other{Days Since a Bad Day {count}}}'**
+  /// **'{count, plural, other{Số ngày kể từ ngày tệ {count}}}'**
   String streakSinceBadDay(num count);
 
   /// No description provided for @errorExternalStorageAccessTitle.
   ///
   /// In en, this message translates to:
-  /// **'Can\'t Access External Storage'**
+  /// **'Không thể truy cập bộ nhớ ngoài'**
   String get errorExternalStorageAccessTitle;
 
   /// No description provided for @errorExternalStorageAccessDescription.
   ///
   /// In en, this message translates to:
-  /// **'If you are using network storage make sure the service is online and you have network access.\n\nOtherwise, the app may have lost permissions for the external folder. Go to settings, and reselect the external folder to grant access.\n\nWarning, changes will not be synced until you restore access to the external storage location!'**
+  /// **'Nếu bạn đang sử dụng bộ nhớ mạng, hãy đảm bảo dịch vụ đang hoạt động và bạn có kết nối mạng.\n\nNếu không, ứng dụng có thể đã mất quyền truy cập vào thư mục ngoài. Vui lòng vào Cài đặt và chọn lại thư mục ngoài để cấp quyền truy cập.\n\nCảnh báo: các thay đổi sẽ không được đồng bộ hóa cho đến khi bạn khôi phục quyền truy cập vào vị trí bộ nhớ ngoài!'**
   String get errorExternalStorageAccessDescription;
 
   /// No description provided for @errorExternalStorageAccessContinue.
   ///
   /// In en, this message translates to:
-  /// **'Continue With Local Database'**
+  /// **'Tiếp tục với cơ sở dữ liệu cục bộ'**
   String get errorExternalStorageAccessContinue;
 
   /// No description provided for @databaseMigrationErrorTitle.
   ///
   /// In en, this message translates to:
-  /// **'Couldn\'t Move Your Data'**
+  /// **'Không thể di chuyển dữ liệu của bạn'**
   String get databaseMigrationErrorTitle;
 
   /// No description provided for @databaseMigrationErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Your entries are safe but couldn\'t be moved to the app\'s storage.\n\nTry again, and report the issue if it keeps happening.'**
+  /// **'Các nhật ký của bạn vẫn an toàn nhưng không thể chuyển sang bộ lưu trữ của ứng dụng.\n\nHãy thử lại và báo cáo sự cố nếu lỗi vẫn tiếp diễn.'**
   String get databaseMigrationErrorDescription;
 
   /// No description provided for @databaseMigrationErrorRetry.
   ///
   /// In en, this message translates to:
-  /// **'Retry'**
+  /// **'Thử lại'**
   String get databaseMigrationErrorRetry;
 
   /// No description provided for @databaseNewerErrorTitle.
   ///
   /// In en, this message translates to:
-  /// **'Update Required'**
+  /// **'Yêu cầu cập nhật'**
   String get databaseNewerErrorTitle;
 
   /// No description provided for @databaseNewerErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Your data was saved by a newer version of Daily You. This version can\'t open it safely. Update the app to continue.'**
+  /// **'Dữ liệu của bạn được lưu bởi phiên bản Daily You mới hơn. Phiên bản này không thể mở dữ liệu an toàn. Vui lòng cập nhật ứng dụng để tiếp tục.'**
   String get databaseNewerErrorDescription;
 
   /// No description provided for @errorReport.
   ///
   /// In en, this message translates to:
-  /// **'Report Issue'**
+  /// **'Báo cáo sự cố'**
   String get errorReport;
 
   /// No description provided for @lastModified.
   ///
   /// In en, this message translates to:
-  /// **'Modified'**
+  /// **'Đã sửa đổi'**
   String get lastModified;
 
   /// No description provided for @writeSomethingHint.
   ///
   /// In en, this message translates to:
-  /// **'Write something…'**
+  /// **'Viết gì đó…'**
   String get writeSomethingHint;
 
   /// No description provided for @titleHint.
   ///
   /// In en, this message translates to:
-  /// **'Title…'**
+  /// **'Tiêu đề…'**
   String get titleHint;
 
   /// No description provided for @deleteLogTitle.
   ///
   /// In en, this message translates to:
-  /// **'Delete Log'**
+  /// **'Xóa nhật ký'**
   String get deleteLogTitle;
 
   /// No description provided for @deleteLogDescription.
   ///
   /// In en, this message translates to:
-  /// **'Do you want to delete this log?'**
+  /// **'Bạn có chắc chắn muốn xóa nhật ký này?'**
   String get deleteLogDescription;
 
   /// No description provided for @deletePhotoTitle.
   ///
   /// In en, this message translates to:
-  /// **'Delete Photo'**
+  /// **'Xóa ảnh'**
   String get deletePhotoTitle;
 
   /// No description provided for @deletePhotoDescription.
   ///
   /// In en, this message translates to:
-  /// **'Do you want to delete this photo?'**
+  /// **'Bạn có chắc chắn muốn xóa ảnh này?'**
   String get deletePhotoDescription;
 
   /// No description provided for @deleteAttachmentTitle.
   ///
   /// In en, this message translates to:
-  /// **'Delete Attachment'**
+  /// **'Xóa tệp đính kèm'**
   String get deleteAttachmentTitle;
 
   /// No description provided for @deleteAttachmentDescription.
   ///
   /// In en, this message translates to:
-  /// **'Do you want to delete this attachment?'**
+  /// **'Bạn có chắc chắn muốn xóa tệp đính kèm này?'**
   String get deleteAttachmentDescription;
 
   /// No description provided for @largeAttachmentWarningTitle.
   ///
   /// In en, this message translates to:
-  /// **'Large attachment'**
+  /// **'Tệp đính kèm lớn'**
   String get largeAttachmentWarningTitle;
 
   /// No description provided for @largeAttachmentWarningDescription.
   ///
   /// In en, this message translates to:
-  /// **'This attachment is large and will increase your backup size.'**
+  /// **'Tệp đính kèm này có dung lượng lớn và sẽ làm tăng kích thước bản sao lưu của bạn.'**
   String get largeAttachmentWarningDescription;
 
   /// No description provided for @dontShowAgain.
   ///
   /// In en, this message translates to:
-  /// **'Don\'t show again'**
+  /// **'Không hiển thị lại'**
   String get dontShowAgain;
 
   /// No description provided for @pageSettingsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Settings'**
+  /// **'Cài đặt'**
   String get pageSettingsTitle;
 
   /// No description provided for @settingsAppearanceTitle.
   ///
   /// In en, this message translates to:
-  /// **'Appearance'**
+  /// **'Giao diện'**
   String get settingsAppearanceTitle;
 
   /// No description provided for @settingsTheme.
   ///
   /// In en, this message translates to:
-  /// **'Theme'**
+  /// **'Chủ đề'**
   String get settingsTheme;
 
   /// No description provided for @themeSystem.
   ///
   /// In en, this message translates to:
-  /// **'System'**
+  /// **'Hệ thống'**
   String get themeSystem;
 
   /// No description provided for @themeLight.
   ///
   /// In en, this message translates to:
-  /// **'Light'**
+  /// **'Sáng'**
   String get themeLight;
 
   /// No description provided for @themeDark.
   ///
   /// In en, this message translates to:
-  /// **'Dark'**
+  /// **'Tối'**
   String get themeDark;
 
   /// No description provided for @themeAmoled.
@@ -645,229 +645,229 @@ abstract class AppLocalizations {
   /// No description provided for @settingsFirstDayOfWeek.
   ///
   /// In en, this message translates to:
-  /// **'First Day Of Week'**
+  /// **'Ngày đầu tuần'**
   String get settingsFirstDayOfWeek;
 
   /// No description provided for @settingsCalendarSystem.
   ///
   /// In en, this message translates to:
-  /// **'Calendar System'**
+  /// **'Hệ thống lịch'**
   String get settingsCalendarSystem;
 
   /// No description provided for @calendarSystemGregorian.
   ///
   /// In en, this message translates to:
-  /// **'Gregorian'**
+  /// **'Dương lịch (Gregorian)'**
   String get calendarSystemGregorian;
 
   /// No description provided for @calendarSystemJalali.
   ///
   /// In en, this message translates to:
-  /// **'Jalali'**
+  /// **'Lịch Ba Tư (Jalali)'**
   String get calendarSystemJalali;
 
   /// No description provided for @settingsUseSystemAccentColor.
   ///
   /// In en, this message translates to:
-  /// **'Use System Accent Color'**
+  /// **'Dùng màu nhấn của hệ thống'**
   String get settingsUseSystemAccentColor;
 
   /// No description provided for @settingsCustomAccentColor.
   ///
   /// In en, this message translates to:
-  /// **'Custom Accent Color'**
+  /// **'Màu nhấn tùy chỉnh'**
   String get settingsCustomAccentColor;
 
   /// No description provided for @settingsShowMarkdownToolbar.
   ///
   /// In en, this message translates to:
-  /// **'Show Markdown Toolbar'**
+  /// **'Hiện thanh công cụ Markdown'**
   String get settingsShowMarkdownToolbar;
 
   /// No description provided for @settingsShowFlashbacks.
   ///
   /// In en, this message translates to:
-  /// **'Show Flashbacks'**
+  /// **'Hiển thị hồi tưởng'**
   String get settingsShowFlashbacks;
 
   /// No description provided for @settingsChangeMoodIcons.
   ///
   /// In en, this message translates to:
-  /// **'Change Mood Icons'**
+  /// **'Thay đổi biểu tượng tâm trạng'**
   String get settingsChangeMoodIcons;
 
   /// No description provided for @moodIconPrompt.
   ///
   /// In en, this message translates to:
-  /// **'Enter an icon'**
+  /// **'Nhập một biểu tượng'**
   String get moodIconPrompt;
 
   /// No description provided for @settingsFlashbacksViewLayout.
   ///
   /// In en, this message translates to:
-  /// **'Flashbacks View Layout'**
+  /// **'Bố cục xem hồi tưởng'**
   String get settingsFlashbacksViewLayout;
 
   /// No description provided for @settingsGalleryViewLayout.
   ///
   /// In en, this message translates to:
-  /// **'Gallery View Layout'**
+  /// **'Bố cục xem thư viện'**
   String get settingsGalleryViewLayout;
 
   /// No description provided for @settingsHideImagesInGallery.
   ///
   /// In en, this message translates to:
-  /// **'Hide Images In Gallery'**
+  /// **'Ẩn hình ảnh trong thư viện'**
   String get settingsHideImagesInGallery;
 
   /// No description provided for @settingsHideImages.
   ///
   /// In en, this message translates to:
-  /// **'Hide Images'**
+  /// **'Ẩn hình ảnh'**
   String get settingsHideImages;
 
   /// No description provided for @pageCalendarTitle.
   ///
   /// In en, this message translates to:
-  /// **'Calendar'**
+  /// **'Lịch'**
   String get pageCalendarTitle;
 
   /// No description provided for @viewLayoutList.
   ///
   /// In en, this message translates to:
-  /// **'List'**
+  /// **'Danh sách'**
   String get viewLayoutList;
 
   /// No description provided for @viewLayoutGrid.
   ///
   /// In en, this message translates to:
-  /// **'Grid'**
+  /// **'Lưới'**
   String get viewLayoutGrid;
 
   /// No description provided for @settingsNotificationsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Notifications'**
+  /// **'Thông báo'**
   String get settingsNotificationsTitle;
 
   /// No description provided for @settingsDailyReminderOnboarding.
   ///
   /// In en, this message translates to:
-  /// **'Enable daily reminders to keep yourself consistent!'**
+  /// **'Bật nhắc nhở hàng ngày để duy trì thói quen ghi nhật ký!'**
   String get settingsDailyReminderOnboarding;
 
   /// No description provided for @settingsNotificationsPermissionsPrompt.
   ///
   /// In en, this message translates to:
-  /// **'The \'schedule alarms\' permission will be requested to send the reminder at a random moment or at your preferred time.'**
+  /// **'Quyền \'lập lịch báo thức\' sẽ được yêu cầu để gửi lời nhắc vào thời điểm ngẫu nhiên hoặc thời gian bạn chọn.'**
   String get settingsNotificationsPermissionsPrompt;
 
   /// No description provided for @settingsDailyReminderTitle.
   ///
   /// In en, this message translates to:
-  /// **'Daily Reminder'**
+  /// **'Nhắc nhở hàng ngày'**
   String get settingsDailyReminderTitle;
 
   /// No description provided for @settingsOnThisDayDescription.
   ///
   /// In en, this message translates to:
-  /// **'Revisit past memories'**
+  /// **'Xem lại những kỷ niệm đã qua'**
   String get settingsOnThisDayDescription;
 
   /// No description provided for @settingsDailyReminderDescription.
   ///
   /// In en, this message translates to:
-  /// **'A gentle reminder each day'**
+  /// **'Lời nhắc nhẹ nhàng mỗi ngày'**
   String get settingsDailyReminderDescription;
 
   /// No description provided for @settingsReminderTime.
   ///
   /// In en, this message translates to:
-  /// **'Reminder Time'**
+  /// **'Thời gian nhắc nhở'**
   String get settingsReminderTime;
 
   /// No description provided for @settingsFixedReminderTimeTitle.
   ///
   /// In en, this message translates to:
-  /// **'Fixed Reminder Time'**
+  /// **'Thời gian nhắc nhở cố định'**
   String get settingsFixedReminderTimeTitle;
 
   /// No description provided for @settingsFixedReminderTimeDescription.
   ///
   /// In en, this message translates to:
-  /// **'Pick a fixed time for the reminder'**
+  /// **'Chọn một khung giờ cố định để nhận lời nhắc'**
   String get settingsFixedReminderTimeDescription;
 
   /// No description provided for @settingsAlwaysSendReminderTitle.
   ///
   /// In en, this message translates to:
-  /// **'Always Send Reminder'**
+  /// **'Luôn gửi lời nhắc'**
   String get settingsAlwaysSendReminderTitle;
 
   /// No description provided for @settingsAlwaysSendReminderDescription.
   ///
   /// In en, this message translates to:
-  /// **'Send reminder even if a log was already started'**
+  /// **'Vẫn gửi nhắc nhở ngay cả khi đã bắt đầu ghi nhật ký'**
   String get settingsAlwaysSendReminderDescription;
 
   /// No description provided for @settingsCustomizeNotificationTitle.
   ///
   /// In en, this message translates to:
-  /// **'Customize Notifications'**
+  /// **'Tùy chỉnh thông báo'**
   String get settingsCustomizeNotificationTitle;
 
   /// No description provided for @settingsTemplatesTitle.
   ///
   /// In en, this message translates to:
-  /// **'Templates'**
+  /// **'Mẫu nhật ký'**
   String get settingsTemplatesTitle;
 
   /// No description provided for @settingsDefaultTemplate.
   ///
   /// In en, this message translates to:
-  /// **'Default Template'**
+  /// **'Mẫu mặc định'**
   String get settingsDefaultTemplate;
 
   /// No description provided for @manageTemplates.
   ///
   /// In en, this message translates to:
-  /// **'Manage Templates'**
+  /// **'Quản lý mẫu'**
   String get manageTemplates;
 
   /// No description provided for @addTemplate.
   ///
   /// In en, this message translates to:
-  /// **'Add a Template'**
+  /// **'Thêm mẫu'**
   String get addTemplate;
 
   /// No description provided for @newTemplate.
   ///
   /// In en, this message translates to:
-  /// **'New Template'**
+  /// **'Mẫu mới'**
   String get newTemplate;
 
   /// No description provided for @noTemplateTitle.
   ///
   /// In en, this message translates to:
-  /// **'None'**
+  /// **'Không có'**
   String get noTemplateTitle;
 
   /// No description provided for @noTemplatesDescription.
   ///
   /// In en, this message translates to:
-  /// **'No templates created yet…'**
+  /// **'Chưa có mẫu nào được tạo…'**
   String get noTemplatesDescription;
 
   /// No description provided for @templateVariableTime.
   ///
   /// In en, this message translates to:
-  /// **'Time'**
+  /// **'Thời gian'**
   String get templateVariableTime;
 
   /// No description provided for @templateDefaultTimestampTitle.
   ///
   /// In en, this message translates to:
-  /// **'Timestamp'**
+  /// **'Dấu thời gian'**
   String get templateDefaultTimestampTitle;
 
   /// No description provided for @templateDefaultTimestampBody.
@@ -879,739 +879,739 @@ abstract class AppLocalizations {
   /// No description provided for @templateDefaultSummaryTitle.
   ///
   /// In en, this message translates to:
-  /// **'Day Summary'**
+  /// **'Tóm tắt ngày'**
   String get templateDefaultSummaryTitle;
 
   /// No description provided for @templateDefaultSummaryBody.
   ///
   /// In en, this message translates to:
-  /// **'### Summary\n- \n\n### Quote\n> '**
+  /// **'### Tóm tắt\n- \n\n### Trích dẫn\n> '**
   String get templateDefaultSummaryBody;
 
   /// No description provided for @templateDefaultReflectionTitle.
   ///
   /// In en, this message translates to:
-  /// **'Reflection'**
+  /// **'Suy ngẫm'**
   String get templateDefaultReflectionTitle;
 
   /// No description provided for @templateDefaultReflectionBody.
   ///
   /// In en, this message translates to:
-  /// **'### What did you enjoy about today?\n- \n\n### What are you thankful for?\n- \n\n### What are you looking forward to?\n- '**
+  /// **'### Bạn cảm thấy thích điều gì hôm nay?\n- \n\n### Bạn biết ơn điều gì?\n- \n\n### Bạn đang mong chờ điều gì?\n- '**
   String get templateDefaultReflectionBody;
 
   /// No description provided for @settingsTagsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Tags'**
+  /// **'Thẻ'**
   String get settingsTagsTitle;
 
   /// No description provided for @manageTags.
   ///
   /// In en, this message translates to:
-  /// **'Manage Tags'**
+  /// **'Quản lý thẻ'**
   String get manageTags;
 
   /// No description provided for @tagTypeLabelTitle.
   ///
   /// In en, this message translates to:
-  /// **'Label'**
+  /// **'Nhãn'**
   String get tagTypeLabelTitle;
 
   /// No description provided for @tagTypeTrackerTitle.
   ///
   /// In en, this message translates to:
-  /// **'Tracker'**
+  /// **'Bộ theo dõi'**
   String get tagTypeTrackerTitle;
 
   /// No description provided for @nameHint.
   ///
   /// In en, this message translates to:
-  /// **'Name'**
+  /// **'Tên'**
   String get nameHint;
 
   /// No description provided for @tagColorLabel.
   ///
   /// In en, this message translates to:
-  /// **'Color'**
+  /// **'Màu sắc'**
   String get tagColorLabel;
 
   /// No description provided for @iconPickerTitle.
   ///
   /// In en, this message translates to:
-  /// **'Choose Icon'**
+  /// **'Chọn biểu tượng'**
   String get iconPickerTitle;
 
   /// No description provided for @iconPickerIconsTab.
   ///
   /// In en, this message translates to:
-  /// **'Icons'**
+  /// **'Biểu tượng'**
   String get iconPickerIconsTab;
 
   /// No description provided for @iconPickerCustomTab.
   ///
   /// In en, this message translates to:
-  /// **'Custom'**
+  /// **'Tùy chỉnh'**
   String get iconPickerCustomTab;
 
   /// No description provided for @iconPickerSearchHint.
   ///
   /// In en, this message translates to:
-  /// **'Search icons…'**
+  /// **'Tìm kiếm biểu tượng…'**
   String get iconPickerSearchHint;
 
   /// No description provided for @colorPickerTitle.
   ///
   /// In en, this message translates to:
-  /// **'Choose Color'**
+  /// **'Chọn màu sắc'**
   String get colorPickerTitle;
 
   /// No description provided for @colorPickerPaletteTab.
   ///
   /// In en, this message translates to:
-  /// **'Colors'**
+  /// **'Màu sắc'**
   String get colorPickerPaletteTab;
 
   /// No description provided for @iconGroupMoodPeople.
   ///
   /// In en, this message translates to:
-  /// **'Mood & People'**
+  /// **'Tâm trạng & Con người'**
   String get iconGroupMoodPeople;
 
   /// No description provided for @iconGroupHealth.
   ///
   /// In en, this message translates to:
-  /// **'Health'**
+  /// **'Sức khỏe'**
   String get iconGroupHealth;
 
   /// No description provided for @iconGroupWorkFinance.
   ///
   /// In en, this message translates to:
-  /// **'Work & Finance'**
+  /// **'Công việc & Tài chính'**
   String get iconGroupWorkFinance;
 
   /// No description provided for @iconGroupHabitsGoals.
   ///
   /// In en, this message translates to:
-  /// **'Habits & Goals'**
+  /// **'Thói quen & Mục tiêu'**
   String get iconGroupHabitsGoals;
 
   /// No description provided for @iconGroupNature.
   ///
   /// In en, this message translates to:
-  /// **'Nature'**
+  /// **'Thiên nhiên'**
   String get iconGroupNature;
 
   /// No description provided for @iconGroupFoodDrink.
   ///
   /// In en, this message translates to:
-  /// **'Food & Drink'**
+  /// **'Ẩm thực & Đồ uống'**
   String get iconGroupFoodDrink;
 
   /// No description provided for @iconGroupHome.
   ///
   /// In en, this message translates to:
-  /// **'Home'**
+  /// **'Nhà cửa'**
   String get iconGroupHome;
 
   /// No description provided for @iconGroupTravel.
   ///
   /// In en, this message translates to:
-  /// **'Travel'**
+  /// **'Du lịch'**
   String get iconGroupTravel;
 
   /// No description provided for @iconGroupSymbols.
   ///
   /// In en, this message translates to:
-  /// **'Symbols'**
+  /// **'Ký hiệu'**
   String get iconGroupSymbols;
 
   /// No description provided for @tagCategoryLabel.
   ///
   /// In en, this message translates to:
-  /// **'Category'**
+  /// **'Danh mục'**
   String get tagCategoryLabel;
 
   /// No description provided for @tagLabel.
   ///
   /// In en, this message translates to:
-  /// **'Tag'**
+  /// **'Thẻ'**
   String get tagLabel;
 
   /// No description provided for @tagCategoryUncategorized.
   ///
   /// In en, this message translates to:
-  /// **'Uncategorized'**
+  /// **'Chưa phân loại'**
   String get tagCategoryUncategorized;
 
   /// No description provided for @newCategoryTitle.
   ///
   /// In en, this message translates to:
-  /// **'New Category'**
+  /// **'Danh mục mới'**
   String get newCategoryTitle;
 
   /// No description provided for @shareButtonLabel.
   ///
   /// In en, this message translates to:
-  /// **'Share'**
+  /// **'Chia sẻ'**
   String get shareButtonLabel;
 
   /// No description provided for @importErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to import file!'**
+  /// **'Nhập tệp thất bại!'**
   String get importErrorDescription;
 
   /// No description provided for @exportErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to export file!'**
+  /// **'Xuất tệp thất bại!'**
   String get exportErrorDescription;
 
   /// No description provided for @deleteTitle.
   ///
   /// In en, this message translates to:
-  /// **'Delete'**
+  /// **'Xóa'**
   String get deleteTitle;
 
   /// No description provided for @deleteTagMessage.
   ///
   /// In en, this message translates to:
-  /// **'Delete \"{name}\"?{count, plural, =0{} =1{ It is used in 1 log.} other{ It is used in {count} logs.}}'**
+  /// **'Xóa \"{name}\"?{count, plural, =0{} =1{ Thẻ này đang được dùng trong 1 nhật ký.} other{ Thẻ này đang được dùng trong {count} nhật ký.}}'**
   String deleteTagMessage(num count, Object name);
 
   /// No description provided for @deleteCategoryMessage.
   ///
   /// In en, this message translates to:
-  /// **'Delete \"{name}\"?{count, plural, =0{} =1{ Its 1 tag will also be deleted.} other{ Its {count} tags will also be deleted.}}'**
+  /// **'Xóa \"{name}\"?{count, plural, =0{} =1{ 1 thẻ thuộc danh mục này cũng sẽ bị xóa.} other{ {count} thẻ thuộc danh mục này cũng sẽ bị xóa.}}'**
   String deleteCategoryMessage(num count, Object name);
 
   /// No description provided for @deleteTemplateMessage.
   ///
   /// In en, this message translates to:
-  /// **'Delete \"{name}\"?'**
+  /// **'Xóa \"{name}\"?'**
   String deleteTemplateMessage(Object name);
 
   /// No description provided for @filterTagsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Filter'**
+  /// **'Bộ lọc'**
   String get filterTagsTitle;
 
   /// No description provided for @tagFilterModeAny.
   ///
   /// In en, this message translates to:
-  /// **'Any Tag'**
+  /// **'Bất kỳ thẻ nào'**
   String get tagFilterModeAny;
 
   /// No description provided for @tagFilterModeAll.
   ///
   /// In en, this message translates to:
-  /// **'All Tags'**
+  /// **'Tất cả các thẻ'**
   String get tagFilterModeAll;
 
   /// No description provided for @clearAllFilters.
   ///
   /// In en, this message translates to:
-  /// **'Clear All'**
+  /// **'Xóa tất cả bộ lọc'**
   String get clearAllFilters;
 
   /// No description provided for @noTagsFilterLabel.
   ///
   /// In en, this message translates to:
-  /// **'No Tags'**
+  /// **'Không có thẻ'**
   String get noTagsFilterLabel;
 
   /// No description provided for @addTagsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Add Tags'**
+  /// **'Thêm thẻ'**
   String get addTagsTitle;
 
   /// No description provided for @addTagsSearchHint.
   ///
   /// In en, this message translates to:
-  /// **'Search tags…'**
+  /// **'Tìm kiếm thẻ…'**
   String get addTagsSearchHint;
 
   /// No description provided for @tagPickerSortManualLabel.
   ///
   /// In en, this message translates to:
-  /// **'Manual order'**
+  /// **'Thứ tự thủ công'**
   String get tagPickerSortManualLabel;
 
   /// No description provided for @tagPickerSortUsageLabel.
   ///
   /// In en, this message translates to:
-  /// **'Sort by usage'**
+  /// **'Sắp xếp theo mức độ sử dụng'**
   String get tagPickerSortUsageLabel;
 
   /// No description provided for @tagFavoriteName.
   ///
   /// In en, this message translates to:
-  /// **'Favorite'**
+  /// **'Yêu thích'**
   String get tagFavoriteName;
 
   /// No description provided for @tagEnergyName.
   ///
   /// In en, this message translates to:
-  /// **'Energy'**
+  /// **'Năng lượng'**
   String get tagEnergyName;
 
   /// No description provided for @tagCategoryActivitiesName.
   ///
   /// In en, this message translates to:
-  /// **'Activities'**
+  /// **'Hoạt động'**
   String get tagCategoryActivitiesName;
 
   /// No description provided for @tagExerciseName.
   ///
   /// In en, this message translates to:
-  /// **'Exercise'**
+  /// **'Tập thể dục'**
   String get tagExerciseName;
 
   /// No description provided for @tagSocializingName.
   ///
   /// In en, this message translates to:
-  /// **'Socializing'**
+  /// **'Giao lưu'**
   String get tagSocializingName;
 
   /// No description provided for @tagHobbyName.
   ///
   /// In en, this message translates to:
-  /// **'Hobby'**
+  /// **'Sở thích'**
   String get tagHobbyName;
 
   /// No description provided for @tagEntertainmentName.
   ///
   /// In en, this message translates to:
-  /// **'Entertainment'**
+  /// **'Giải trí'**
   String get tagEntertainmentName;
 
   /// No description provided for @tagDiningName.
   ///
   /// In en, this message translates to:
-  /// **'Dining'**
+  /// **'Ăn uống'**
   String get tagDiningName;
 
   /// No description provided for @tagChoresName.
   ///
   /// In en, this message translates to:
-  /// **'Chores'**
+  /// **'Việc vặt'**
   String get tagChoresName;
 
   /// No description provided for @tagCategoryEmotionsName.
   ///
   /// In en, this message translates to:
-  /// **'Emotions'**
+  /// **'Cảm xúc'**
   String get tagCategoryEmotionsName;
 
   /// No description provided for @tagExcitedName.
   ///
   /// In en, this message translates to:
-  /// **'Excited'**
+  /// **'Hào hứng'**
   String get tagExcitedName;
 
   /// No description provided for @tagGratefulName.
   ///
   /// In en, this message translates to:
-  /// **'Grateful'**
+  /// **'Biết ơn'**
   String get tagGratefulName;
 
   /// No description provided for @tagCalmName.
   ///
   /// In en, this message translates to:
-  /// **'Calm'**
+  /// **'Bình yên'**
   String get tagCalmName;
 
   /// No description provided for @tagTiredName.
   ///
   /// In en, this message translates to:
-  /// **'Tired'**
+  /// **'Mệt mỏi'**
   String get tagTiredName;
 
   /// No description provided for @tagAnxiousName.
   ///
   /// In en, this message translates to:
-  /// **'Anxious'**
+  /// **'Lo lắng'**
   String get tagAnxiousName;
 
   /// No description provided for @tagAnnoyedName.
   ///
   /// In en, this message translates to:
-  /// **'Annoyed'**
+  /// **'Bực bội'**
   String get tagAnnoyedName;
 
   /// No description provided for @welcomeLogBodyText.
   ///
   /// In en, this message translates to:
-  /// **'## Welcome to Daily You\n\n> Every day is worth remembering, capture it!\n\n**Daily You** is free, [open source](https://github.com/Demizo/Daily_You), and community supported. Built around the belief that your diary should be yours, not a product:\n\n- No ads\n- No locked features\n- No tracking or data collection\n\nWhether you\'re journaling, reflecting, or just noting what made you smile, **Daily You** gives you a private space that\'s _truly your own_.'**
+  /// **'## Chào mừng bạn đến với Daily You\n\n> Mỗi ngày đều đáng nhớ, hãy lưu giữ từng khoảnh khắc!\n\n**Daily You** hoàn toàn miễn phí, [mã nguồn mở](https://github.com/Demizo/Daily_You) và được hỗ trợ bởi cộng đồng. Ứng dụng được xây dựng trên niềm tin rằng nhật ký phải là của riêng bạn, không phải một sản phẩm thương mại:\n\n- Không quảng cáo\n- Không tính năng bị khóa\n- Không theo dõi hay thu thập dữ liệu\n\nDù bạn viết nhật ký, suy ngẫm hay chỉ ghi lại điều khiến mình mỉm cười, **Daily You** mang đến cho bạn một không gian riêng tư _thực sự thuộc về bạn_.'**
   String get welcomeLogBodyText;
 
   /// No description provided for @settingsStorageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Storage & Sync'**
+  /// **'Lưu trữ & Đồng bộ'**
   String get settingsStorageTitle;
 
   /// No description provided for @settingsImageQuality.
   ///
   /// In en, this message translates to:
-  /// **'Image Quality'**
+  /// **'Chất lượng hình ảnh'**
   String get settingsImageQuality;
 
   /// No description provided for @settingsMediaQualityTitle.
   ///
   /// In en, this message translates to:
-  /// **'Media Quality'**
+  /// **'Chất lượng tệp phương tiện'**
   String get settingsMediaQualityTitle;
 
   /// No description provided for @imageQualityHigh.
   ///
   /// In en, this message translates to:
-  /// **'High'**
+  /// **'Cao'**
   String get imageQualityHigh;
 
   /// No description provided for @imageQualityMedium.
   ///
   /// In en, this message translates to:
-  /// **'Medium'**
+  /// **'Trung bình'**
   String get imageQualityMedium;
 
   /// No description provided for @imageQualityLow.
   ///
   /// In en, this message translates to:
-  /// **'Low'**
+  /// **'Thấp'**
   String get imageQualityLow;
 
   /// No description provided for @imageQualityNoCompression.
   ///
   /// In en, this message translates to:
-  /// **'No Compression'**
+  /// **'Không nén'**
   String get imageQualityNoCompression;
 
   /// No description provided for @settingsStorageUsage.
   ///
   /// In en, this message translates to:
-  /// **'Storage Usage'**
+  /// **'Dung lượng đã dùng'**
   String get settingsStorageUsage;
 
   /// No description provided for @settingsLogFolder.
   ///
   /// In en, this message translates to:
-  /// **'Log Folder'**
+  /// **'Thư mục nhật ký'**
   String get settingsLogFolder;
 
   /// No description provided for @settingsImageFolder.
   ///
   /// In en, this message translates to:
-  /// **'Image Folder'**
+  /// **'Thư mục hình ảnh'**
   String get settingsImageFolder;
 
   /// No description provided for @settingsExternalSyncTitle.
   ///
   /// In en, this message translates to:
-  /// **'Sync with External Location'**
+  /// **'Đồng bộ với vị trí ngoài'**
   String get settingsExternalSyncTitle;
 
   /// No description provided for @chooseFolderHint.
   ///
   /// In en, this message translates to:
-  /// **'Choose a folder'**
+  /// **'Chọn một thư mục'**
   String get chooseFolderHint;
 
   /// No description provided for @warningTitle.
   ///
   /// In en, this message translates to:
-  /// **'Warning'**
+  /// **'Cảnh báo'**
   String get warningTitle;
 
   /// No description provided for @logFolderWarningDescription.
   ///
   /// In en, this message translates to:
-  /// **'The selected folder already contains a \'daily_you.db\' file, it will be used to overwrite your existing logs!'**
+  /// **'Thư mục đã chọn đã chứa tệp \'daily_you.db\', tệp này sẽ ghi đè lên các nhật ký hiện tại của bạn!'**
   String get logFolderWarningDescription;
 
   /// No description provided for @errorTitle.
   ///
   /// In en, this message translates to:
-  /// **'Error'**
+  /// **'Lỗi'**
   String get errorTitle;
 
   /// No description provided for @logFolderErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to change log folder!'**
+  /// **'Không thể thay đổi thư mục nhật ký!'**
   String get logFolderErrorDescription;
 
   /// No description provided for @imageFolderErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to change image folder!'**
+  /// **'Không thể thay đổi thư mục hình ảnh!'**
   String get imageFolderErrorDescription;
 
   /// No description provided for @syncErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to sync with the external location!'**
+  /// **'Đồng bộ với vị trí ngoài thất bại!'**
   String get syncErrorDescription;
 
   /// No description provided for @backupErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to create backup!'**
+  /// **'Tạo bản sao lưu thất bại!'**
   String get backupErrorDescription;
 
   /// No description provided for @restoreErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to restore backup!'**
+  /// **'Khôi phục bản sao lưu thất bại!'**
   String get restoreErrorDescription;
 
   /// No description provided for @settingsBackupRestoreTitle.
   ///
   /// In en, this message translates to:
-  /// **'Backup & Restore'**
+  /// **'Sao lưu & Khôi phục'**
   String get settingsBackupRestoreTitle;
 
   /// No description provided for @settingsBackup.
   ///
   /// In en, this message translates to:
-  /// **'Backup'**
+  /// **'Sao lưu'**
   String get settingsBackup;
 
   /// No description provided for @settingsRestore.
   ///
   /// In en, this message translates to:
-  /// **'Restore'**
+  /// **'Khôi phục'**
   String get settingsRestore;
 
   /// No description provided for @settingsRestorePromptDescription.
   ///
   /// In en, this message translates to:
-  /// **'Restoring a backup will overwrite your existing data!'**
+  /// **'Khôi phục bản sao lưu sẽ ghi đè lên toàn bộ dữ liệu hiện tại của bạn!'**
   String get settingsRestorePromptDescription;
 
   /// No description provided for @settingsBackupPasswordProtect.
   ///
   /// In en, this message translates to:
-  /// **'Password Protect Backups'**
+  /// **'Bảo vệ sao lưu bằng mật khẩu'**
   String get settingsBackupPasswordProtect;
 
   /// No description provided for @backupEncryptedTitle.
   ///
   /// In en, this message translates to:
-  /// **'Encrypted Backup'**
+  /// **'Bản sao lưu đã mã hóa'**
   String get backupEncryptedTitle;
 
   /// No description provided for @backupEncryptedContent.
   ///
   /// In en, this message translates to:
-  /// **'This backup is password protected.'**
+  /// **'Bản sao lưu này được bảo vệ bằng mật khẩu.'**
   String get backupEncryptedContent;
 
   /// No description provided for @settingsAutoBackup.
   ///
   /// In en, this message translates to:
-  /// **'Automatic Backups'**
+  /// **'Tự động sao lưu'**
   String get settingsAutoBackup;
 
   /// No description provided for @settingsAutoBackupLocation.
   ///
   /// In en, this message translates to:
-  /// **'Backup Location'**
+  /// **'Vị trí sao lưu'**
   String get settingsAutoBackupLocation;
 
   /// No description provided for @settingsAutoBackupInterval.
   ///
   /// In en, this message translates to:
-  /// **'Backup Interval'**
+  /// **'Tần suất sao lưu'**
   String get settingsAutoBackupInterval;
 
   /// No description provided for @settingsAutoBackupIntervalDaily.
   ///
   /// In en, this message translates to:
-  /// **'Daily'**
+  /// **'Hàng ngày'**
   String get settingsAutoBackupIntervalDaily;
 
   /// No description provided for @settingsAutoBackupIntervalWeekly.
   ///
   /// In en, this message translates to:
-  /// **'Weekly'**
+  /// **'Hàng tuần'**
   String get settingsAutoBackupIntervalWeekly;
 
   /// No description provided for @settingsAutoBackupIntervalMonthly.
   ///
   /// In en, this message translates to:
-  /// **'Monthly'**
+  /// **'Hàng tháng'**
   String get settingsAutoBackupIntervalMonthly;
 
   /// No description provided for @settingsAutoBackupMaxCount.
   ///
   /// In en, this message translates to:
-  /// **'Backups To Keep'**
+  /// **'Số bản sao lưu giữ lại'**
   String get settingsAutoBackupMaxCount;
 
   /// No description provided for @settingsAutoBackupRequireCharging.
   ///
   /// In en, this message translates to:
-  /// **'Only While Charging'**
+  /// **'Chỉ khi đang sạc'**
   String get settingsAutoBackupRequireCharging;
 
   /// No description provided for @settingsBackupLast.
   ///
   /// In en, this message translates to:
-  /// **'Last backup {time}'**
+  /// **'Sao lưu gần nhất: {time}'**
   String settingsBackupLast(Object time);
 
   /// No description provided for @settingsBackupNever.
   ///
   /// In en, this message translates to:
-  /// **'Never backed up'**
+  /// **'Chưa từng sao lưu'**
   String get settingsBackupNever;
 
   /// No description provided for @settingsAutoBackupNext.
   ///
   /// In en, this message translates to:
-  /// **'Next backup {time}'**
+  /// **'Sao lưu tiếp theo: {time}'**
   String settingsAutoBackupNext(Object time);
 
   /// No description provided for @settingsAutoBackupKeepAll.
   ///
   /// In en, this message translates to:
-  /// **'All'**
+  /// **'Tất cả'**
   String get settingsAutoBackupKeepAll;
 
   /// No description provided for @autoBackupFailedTitle.
   ///
   /// In en, this message translates to:
-  /// **'Backup Failed'**
+  /// **'Sao lưu tự động thất bại'**
   String get autoBackupFailedTitle;
 
   /// No description provided for @tranferStatus.
   ///
   /// In en, this message translates to:
-  /// **'Transferring… {percent}%'**
+  /// **'Đang truyền… {percent}%'**
   String tranferStatus(Object percent);
 
   /// No description provided for @creatingBackupStatus.
   ///
   /// In en, this message translates to:
-  /// **'Creating Backup… {percent}%'**
+  /// **'Đang tạo bản sao lưu… {percent}%'**
   String creatingBackupStatus(Object percent);
 
   /// No description provided for @restoringBackupStatus.
   ///
   /// In en, this message translates to:
-  /// **'Restoring Backup… {percent}%'**
+  /// **'Đang khôi phục bản sao lưu… {percent}%'**
   String restoringBackupStatus(Object percent);
 
   /// No description provided for @encryptingBackupStatus.
   ///
   /// In en, this message translates to:
-  /// **'Encrypting Backup… {percent}%'**
+  /// **'Đang mã hóa bản sao lưu… {percent}%'**
   String encryptingBackupStatus(Object percent);
 
   /// No description provided for @decryptingBackupStatus.
   ///
   /// In en, this message translates to:
-  /// **'Decrypting Backup… {percent}%'**
+  /// **'Đang giải mã bản sao lưu… {percent}%'**
   String decryptingBackupStatus(Object percent);
 
   /// No description provided for @cleanUpStatus.
   ///
   /// In en, this message translates to:
-  /// **'Cleaning Up…'**
+  /// **'Đang dọn dẹp…'**
   String get cleanUpStatus;
 
   /// No description provided for @migratingImagesStatus.
   ///
   /// In en, this message translates to:
-  /// **'Migrating photos… {current}/{total}'**
+  /// **'Đang chuyển ảnh… {current}/{total}'**
   String migratingImagesStatus(Object current, Object total);
 
   /// No description provided for @settingsExport.
   ///
   /// In en, this message translates to:
-  /// **'Export'**
+  /// **'Xuất dữ liệu'**
   String get settingsExport;
 
   /// No description provided for @settingsExportToAnotherFormat.
   ///
   /// In en, this message translates to:
-  /// **'Export To Another Format'**
+  /// **'Xuất sang định dạng khác'**
   String get settingsExportToAnotherFormat;
 
   /// No description provided for @settingsExportFormatDescription.
   ///
   /// In en, this message translates to:
-  /// **'This should not be used as a backup!'**
+  /// **'Không nên dùng định dạng này làm bản sao lưu chính!'**
   String get settingsExportFormatDescription;
 
   /// No description provided for @exportLogs.
   ///
   /// In en, this message translates to:
-  /// **'Export Logs'**
+  /// **'Xuất nhật ký'**
   String get exportLogs;
 
   /// No description provided for @exportImages.
   ///
   /// In en, this message translates to:
-  /// **'Export Images'**
+  /// **'Xuất hình ảnh'**
   String get exportImages;
 
   /// No description provided for @exportIncludeTitle.
   ///
   /// In en, this message translates to:
-  /// **'Include'**
+  /// **'Bao gồm'**
   String get exportIncludeTitle;
 
   /// No description provided for @settingsImport.
   ///
   /// In en, this message translates to:
-  /// **'Import'**
+  /// **'Nhập dữ liệu'**
   String get settingsImport;
 
   /// No description provided for @settingsImportFromAnotherApp.
   ///
   /// In en, this message translates to:
-  /// **'Import From Another App'**
+  /// **'Nhập từ ứng dụng khác'**
   String get settingsImportFromAnotherApp;
 
   /// No description provided for @settingsTranslateCallToAction.
   ///
   /// In en, this message translates to:
-  /// **'Everyone should have access to a journal!'**
+  /// **'Mọi người đều xứng đáng có một cuốn nhật ký của riêng mình!'**
   String get settingsTranslateCallToAction;
 
   /// No description provided for @settingsHelpTranslate.
   ///
   /// In en, this message translates to:
-  /// **'Help Translate'**
+  /// **'Hỗ trợ dịch thuật'**
   String get settingsHelpTranslate;
 
   /// No description provided for @importLogs.
   ///
   /// In en, this message translates to:
-  /// **'Import Logs'**
+  /// **'Nhập nhật ký'**
   String get importLogs;
 
   /// No description provided for @importImages.
   ///
   /// In en, this message translates to:
-  /// **'Import Images'**
+  /// **'Nhập hình ảnh'**
   String get importImages;
 
   /// No description provided for @logFormatTitle.
   ///
   /// In en, this message translates to:
-  /// **'Choose Format'**
+  /// **'Chọn định dạng'**
   String get logFormatTitle;
 
   /// No description provided for @logFormatDescription.
   ///
   /// In en, this message translates to:
-  /// **'Another app\'s format may not support all features. Please report any issues since third party formats may change at any time. This will not impact existing logs!'**
+  /// **'Định dạng từ ứng dụng khác có thể không hỗ trợ đầy đủ các tính năng. Vui lòng báo cáo bất kỳ sự cố nào vì định dạng của bên thứ ba có thể thay đổi bất kỳ lúc nào. Điều này sẽ không ảnh hưởng đến các nhật ký hiện có!'**
   String get logFormatDescription;
 
   /// No description provided for @formatDailyYouJson.
@@ -1671,133 +1671,133 @@ abstract class AppLocalizations {
   /// No description provided for @settingsDeleteAllLogsTitle.
   ///
   /// In en, this message translates to:
-  /// **'Delete All Logs'**
+  /// **'Xóa tất cả nhật ký'**
   String get settingsDeleteAllLogsTitle;
 
   /// No description provided for @settingsDeleteAllLogsDescription.
   ///
   /// In en, this message translates to:
-  /// **'Do you want to delete all of your logs?'**
+  /// **'Bạn có chắc chắn muốn xóa toàn bộ nhật ký của mình?'**
   String get settingsDeleteAllLogsDescription;
 
   /// No description provided for @settingsDeleteAllLogsPrompt.
   ///
   /// In en, this message translates to:
-  /// **'Enter \'{prompt}\' to confirm. This cannot be undone!'**
+  /// **'Nhập \'{prompt}\' để xác nhận. Thao tác này không thể hoàn tác!'**
   String settingsDeleteAllLogsPrompt(Object prompt);
 
   /// No description provided for @settingsLanguageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Language'**
+  /// **'Ngôn ngữ'**
   String get settingsLanguageTitle;
 
   /// No description provided for @settingsAppLanguageTitle.
   ///
   /// In en, this message translates to:
-  /// **'App Language'**
+  /// **'Ngôn ngữ ứng dụng'**
   String get settingsAppLanguageTitle;
 
   /// No description provided for @settingsOverrideAppLanguageTitle.
   ///
   /// In en, this message translates to:
-  /// **'Override App Language'**
+  /// **'Ghi đè ngôn ngữ ứng dụng'**
   String get settingsOverrideAppLanguageTitle;
 
   /// No description provided for @settingsSecurityTitle.
   ///
   /// In en, this message translates to:
-  /// **'Security'**
+  /// **'Bảo mật'**
   String get settingsSecurityTitle;
 
   /// No description provided for @settingsSecurityRequirePassword.
   ///
   /// In en, this message translates to:
-  /// **'Require Password'**
+  /// **'Yêu cầu mật khẩu'**
   String get settingsSecurityRequirePassword;
 
   /// No description provided for @settingsSecurityEnterPassword.
   ///
   /// In en, this message translates to:
-  /// **'Enter Password'**
+  /// **'Nhập mật khẩu'**
   String get settingsSecurityEnterPassword;
 
   /// No description provided for @settingsSecuritySetPassword.
   ///
   /// In en, this message translates to:
-  /// **'Set Password'**
+  /// **'Đặt mật khẩu'**
   String get settingsSecuritySetPassword;
 
   /// No description provided for @settingsSecurityChangePassword.
   ///
   /// In en, this message translates to:
-  /// **'Change Password'**
+  /// **'Đổi mật khẩu'**
   String get settingsSecurityChangePassword;
 
   /// No description provided for @settingsSecurityPassword.
   ///
   /// In en, this message translates to:
-  /// **'Password'**
+  /// **'Mật khẩu'**
   String get settingsSecurityPassword;
 
   /// No description provided for @settingsSecurityConfirmPassword.
   ///
   /// In en, this message translates to:
-  /// **'Confirm Password'**
+  /// **'Xác nhận mật khẩu'**
   String get settingsSecurityConfirmPassword;
 
   /// No description provided for @settingsSecurityOldPassword.
   ///
   /// In en, this message translates to:
-  /// **'Old Password'**
+  /// **'Mật khẩu cũ'**
   String get settingsSecurityOldPassword;
 
   /// No description provided for @settingsSecurityIncorrectPassword.
   ///
   /// In en, this message translates to:
-  /// **'Incorrect Password'**
+  /// **'Mật khẩu không chính xác'**
   String get settingsSecurityIncorrectPassword;
 
   /// No description provided for @settingsSecurityPasswordsDoNotMatch.
   ///
   /// In en, this message translates to:
-  /// **'Passwords do not match'**
+  /// **'Mật khẩu xác nhận không khớp'**
   String get settingsSecurityPasswordsDoNotMatch;
 
   /// No description provided for @requiredPrompt.
   ///
   /// In en, this message translates to:
-  /// **'Required'**
+  /// **'Bắt buộc'**
   String get requiredPrompt;
 
   /// No description provided for @settingsSecurityBiometricUnlock.
   ///
   /// In en, this message translates to:
-  /// **'Biometric Unlock'**
+  /// **'Mở khóa bằng sinh trắc học'**
   String get settingsSecurityBiometricUnlock;
 
   /// No description provided for @unlockAppPrompt.
   ///
   /// In en, this message translates to:
-  /// **'Unlock the app'**
+  /// **'Mở khóa ứng dụng'**
   String get unlockAppPrompt;
 
   /// No description provided for @settingsAboutTitle.
   ///
   /// In en, this message translates to:
-  /// **'About'**
+  /// **'Giới thiệu'**
   String get settingsAboutTitle;
 
   /// No description provided for @settingsVersion.
   ///
   /// In en, this message translates to:
-  /// **'Version'**
+  /// **'Phiên bản'**
   String get settingsVersion;
 
   /// No description provided for @settingsLicense.
   ///
   /// In en, this message translates to:
-  /// **'License'**
+  /// **'Giấy phép'**
   String get settingsLicense;
 
   /// No description provided for @licenseGPLv3.
@@ -1809,37 +1809,37 @@ abstract class AppLocalizations {
   /// No description provided for @settingsSourceCode.
   ///
   /// In en, this message translates to:
-  /// **'Source Code'**
+  /// **'Mã nguồn'**
   String get settingsSourceCode;
 
   /// No description provided for @settingsOpenSourceLicenses.
   ///
   /// In en, this message translates to:
-  /// **'Open Source Licenses'**
+  /// **'Giấy phép mã nguồn mở'**
   String get settingsOpenSourceLicenses;
 
   /// No description provided for @settingsMadeWithLove.
   ///
   /// In en, this message translates to:
-  /// **'Made with ❤️'**
+  /// **'Được tạo bằng cả ❤️'**
   String get settingsMadeWithLove;
 
   /// No description provided for @settingsConsiderSupporting.
   ///
   /// In en, this message translates to:
-  /// **'consider supporting'**
+  /// **'hãy cân nhắc ủng hộ dự án'**
   String get settingsConsiderSupporting;
 
   /// No description provided for @imagesTitle.
   ///
   /// In en, this message translates to:
-  /// **'Images'**
+  /// **'Hình ảnh'**
   String get imagesTitle;
 
   /// No description provided for @audioTitle.
   ///
   /// In en, this message translates to:
-  /// **'Audio'**
+  /// **'Âm thanh'**
   String get audioTitle;
 
   /// No description provided for @videoTitle.
@@ -1851,97 +1851,97 @@ abstract class AppLocalizations {
   /// No description provided for @tagMoodTitle.
   ///
   /// In en, this message translates to:
-  /// **'Mood'**
+  /// **'Tâm trạng'**
   String get tagMoodTitle;
 
   /// No description provided for @calendarTagDisplayLabel.
   ///
   /// In en, this message translates to:
-  /// **'Tag'**
+  /// **'Thẻ'**
   String get calendarTagDisplayLabel;
 
   /// No description provided for @selectTagTitle.
   ///
   /// In en, this message translates to:
-  /// **'Select Tag'**
+  /// **'Chọn thẻ'**
   String get selectTagTitle;
 
   /// No description provided for @labelPresentLabel.
   ///
   /// In en, this message translates to:
-  /// **'Present'**
+  /// **'Có mặt'**
   String get labelPresentLabel;
 
   /// No description provided for @labelAbsentLabel.
   ///
   /// In en, this message translates to:
-  /// **'Absent'**
+  /// **'Vắng mặt'**
   String get labelAbsentLabel;
 
   /// No description provided for @labelCoverageLabel.
   ///
   /// In en, this message translates to:
-  /// **'Coverage'**
+  /// **'Độ bao phủ'**
   String get labelCoverageLabel;
 
   /// No description provided for @chartDistributionTitle.
   ///
   /// In en, this message translates to:
-  /// **'{tag} Distribution'**
+  /// **'Phân bổ {tag}'**
   String chartDistributionTitle(Object tag);
 
   /// No description provided for @shareAddToLogPickerTitle.
   ///
   /// In en, this message translates to:
-  /// **'Choose a log'**
+  /// **'Chọn một nhật ký'**
   String get shareAddToLogPickerTitle;
 
   /// No description provided for @attachmentAddErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to add attachment!'**
+  /// **'Thêm tệp đính kèm thất bại!'**
   String get attachmentAddErrorDescription;
 
   /// No description provided for @attachmentLoadFailed.
   ///
   /// In en, this message translates to:
-  /// **'Could not open this attachment'**
+  /// **'Không thể mở tệp đính kèm này'**
   String get attachmentLoadFailed;
 
   /// No description provided for @attachmentNoAppToOpen.
   ///
   /// In en, this message translates to:
-  /// **'No app can open this attachment'**
+  /// **'Không có ứng dụng nào có thể mở tệp đính kèm này'**
   String get attachmentNoAppToOpen;
 
   /// No description provided for @recorderDiscardTitle.
   ///
   /// In en, this message translates to:
-  /// **'Discard recording?'**
+  /// **'Hủy bản ghi âm?'**
   String get recorderDiscardTitle;
 
   /// No description provided for @recorderDiscardDescription.
   ///
   /// In en, this message translates to:
-  /// **'This recording will be deleted.'**
+  /// **'Bản ghi âm này sẽ bị xóa.'**
   String get recorderDiscardDescription;
 
   /// No description provided for @recorderDiscardAction.
   ///
   /// In en, this message translates to:
-  /// **'Discard'**
+  /// **'Hủy'**
   String get recorderDiscardAction;
 
   /// No description provided for @recorderPermissionDenied.
   ///
   /// In en, this message translates to:
-  /// **'Microphone permission is required to record audio'**
+  /// **'Cần cấp quyền microphone để ghi âm'**
   String get recorderPermissionDenied;
 
   /// No description provided for @recorderErrorDescription.
   ///
   /// In en, this message translates to:
-  /// **'Failed to record audio!'**
+  /// **'Ghi âm thất bại!'**
   String get recorderErrorDescription;
 }
 

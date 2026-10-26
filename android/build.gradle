@@ -13,6 +13,16 @@ subprojects {
     project.evaluationDependsOn(':app')
 }
 
+subprojects { project ->
+    if (project.name == 'shared_storage') {
+        tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+            kotlinOptions {
+                jvmTarget = "17"
+            }
+        }
+    }
+}
+
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
